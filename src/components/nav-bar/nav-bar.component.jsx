@@ -1,14 +1,12 @@
 const NavBar = () => {
 	return (
-		<>
-			<h1 className="nav-bar">
-				Logo
-				<p className="nav-links">Link One</p>
-				<p className="nav-links">Link Two</p>
-				<p className="nav-links">Link Three</p>
-				<p className="nav-links">Link Four</p>
-			</h1>
-		</>
+		<header className="navbar">
+			<h3 className="signature">Brad Babines</h3>
+			<p className="nav-links">Home</p>
+			<p className="nav-links">About</p>
+			<p className="nav-links">Experience</p>
+			<p className="nav-links">Projects</p>
+		</header>
 	);
 };
 
