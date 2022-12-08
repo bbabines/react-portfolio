@@ -1,11 +1,29 @@
 * {
-	border: solid 1px red;
+	/* border: solid 1px red; */
 	box-sizing: border-box;
-	margin: 0px;
+	margin: 5px;
 	padding: 0px;
 	/* overflow: hidden; */
 
 	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #0a192f;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #5ff1d0;
 }
 
 /* 
@@ -15,8 +33,6 @@ Nav Bar
  */
 
 .navbar {
-	background-color: #0a192f;
-
 	display: flex;
 	align-items: center;
 	height: 15vh;
@@ -37,8 +53,57 @@ Nav Bar
 
 .nav-links {
 	color: #8892b0;
+	font-size: 1.5em;
+	flex-shrink: 1;
 }
 
 .nav-links:hover {
+	color: #5ff1d0;
+}
+
+/* 
+
+Section One
+
+
+ */
+
+.section-one {
+	height: 45vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-one-small-intro {
+	font-size: 1em;
+	color: #5ff1d0;
+}
+
+.section-one-big-intro {
+	font-size: 2em;
+	color: white;
+}
+
+.section-one-second-line {
+	font-size: 2em;
+	color: #8892b0;
+}
+
+.section-one-paragraph {
+	font-size: 1.5em;
+	color: #8892b0;
+}
+
+.resume {
+	max-width: 270px;
+
+	padding: 15px;
+	border: 1px solid #5ff1d0;
+}
+
+.resume-text {
+	font-size: 1.5em;
 	color: #5ff1d0;
 }

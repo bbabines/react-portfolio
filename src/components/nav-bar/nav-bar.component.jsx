@@ -1,11 +1,27 @@
+import React from "react";
+
 const NavBar = () => {
+	// const [lightMode, setLightMode] = useState(false);
+
 	return (
 		<header className="navbar">
-			<h3 className="signature">Brad Babines</h3>
-			<p className="nav-links">Home</p>
-			<p className="nav-links">About</p>
-			<p className="nav-links">Experience</p>
-			<p className="nav-links">Projects</p>
+			<h3 className="signature">
+				<a href="google.com"> Brad Babines</a>
+			</h3>
+
+			<button type="button">Light Mode</button>
+			<p className="nav-links">
+				<a href="google.com">Home</a>
+			</p>
+			<p className="nav-links">
+				<a href="google.com">About</a>
+			</p>
+			<p className="nav-links">
+				<a href="google.com">Experience</a>
+			</p>
+			<p className="nav-links">
+				<a href="google.com">Projects</a>
+			</p>
 		</header>
 	);
 };
