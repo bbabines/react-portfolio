@@ -10,13 +10,13 @@ const NavBar = () => {
 
 	return (
 		<header className="navbar">
+			<button type="button" onClick={lightModeFunction} className="mode">
+				Btn
+			</button>
 			<h3 className="signature">
 				<a href="google.com"> Brad Babines</a>
 			</h3>
 
-			<button type="button" onClick={lightModeFunction}>
-				Light Mode
-			</button>
 			<p className="nav-links">
 				<a href="google.com">Home</a>
 			</p>
