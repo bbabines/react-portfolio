@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   height: 15vh;
+  background-color: #0a192f;
 }
 
 .signature {
@@ -11,8 +12,21 @@
   font-family: "Dancing Script", cursive;
   font-weight: 100;
 }
+.signature a:link {
+  text-decoration: none;
+  color: white;
+}
+.signature a:visited {
+  color: white;
+}
+.signature a:hover {
+  color: #5ff1d0;
+}
 
 .signature:hover {
+  color: #5ff1d0;
+}
+.signature:hover a:hover {
   color: #5ff1d0;
 }
 
@@ -21,9 +35,55 @@
   font-size: 1.5em;
   flex-shrink: 1;
 }
+.nav-links a:link {
+  text-decoration: none;
+  color: white;
+}
+.nav-links a:visited {
+  color: white;
+}
+.nav-links a:hover {
+  color: #8892b0;
+}
 
-.nav-links:hover {
+.nav--light {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  background-color: white;
+}
+
+.signature--light {
+  flex-grow: 1;
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+}
+.signature--light a:link {
+  text-decoration: none;
+  color: black;
+}
+.signature--light a:visited {
+  color: black;
+}
+.signature--light a:hover {
   color: #5ff1d0;
+}
+
+.nav-links--light {
+  color: #8892b0;
+  font-size: 1.5em;
+  flex-shrink: 1;
+}
+.nav-links--light a:link {
+  text-decoration: none;
+  color: black;
+}
+.nav-links--light a:visited {
+  color: black;
+}
+.nav-links--light a:hover {
+  color: #8892b0;
 }
 
 .section-one {
@@ -70,24 +130,6 @@
   padding: 0px;
   /* overflow: hidden; */
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #0a192f;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #5ff1d0;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,9 +1,12 @@
 @import "../variables.scss";
 
+// Dark mode
 .navbar {
 	display: flex;
 	align-items: center;
 	height: 15vh;
+
+	background-color: $primary-color;
 }
 
 .signature {
@@ -13,52 +16,94 @@
 	font-size: 2em;
 	font-family: "Dancing Script", cursive;
 	font-weight: 100;
+
+	a:link {
+		text-decoration: none;
+		color: $tertiary-color;
+	}
+
+	a:visited {
+		color: $tertiary-color;
+	}
+
+	a:hover {
+		color: $secondary-color;
+	}
 }
 
 .signature:hover {
 	color: #5ff1d0;
+
+	a:hover {
+		color: $secondary-color;
+	}
 }
 
 .nav-links {
 	color: #8892b0;
 	font-size: 1.5em;
 	flex-shrink: 1;
+
+	a:link {
+		text-decoration: none;
+		color: $tertiary-color;
+	}
+
+	a:visited {
+		color: $tertiary-color;
+	}
+
+	a:hover {
+		color: #8892b0;
+	}
 }
 
-.nav-links:hover {
-	color: #5ff1d0;
-}
+// Light mode
 
-// Lightmode
-.light-mode-navbar {
+.nav--light {
+	display: flex;
+	align-items: center;
+	height: 15vh;
+
 	background-color: $tertiary-color;
 }
 
-.navbar {
-	display: flex;
-	align-items: center;
-	height: 15vh;
-}
-
-.signature {
+.signature--light {
 	flex-grow: 1;
 
-	color: white;
 	font-size: 2em;
 	font-family: "Dancing Script", cursive;
 	font-weight: 100;
+
+	a:link {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	a:hover {
+		color: $secondary-color;
+	}
 }
 
-.signature:hover {
-	color: #5ff1d0;
-}
-
-.nav-links {
+.nav-links--light {
 	color: #8892b0;
 	font-size: 1.5em;
 	flex-shrink: 1;
-}
 
-.nav-links:hover {
-	color: #5ff1d0;
+	a:link {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	a:hover {
+		color: $fourth-color;
+	}
 }

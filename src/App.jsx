@@ -1,3 +1,5 @@
+import React from "react";
+
 import NavBar from "./components/navbar/navbar.component";
 import SectionOne from "./components/section-one/section-one.component";
 import SectionTwo from "./components/section-two/section-two.component";
@@ -9,7 +11,6 @@ const App = () => {
 
 	const toggleDarkMode = () => {
 		setDarkMode((previousMode) => !previousMode);
-		console.log(darkMode);
 	};
 
 	return (
