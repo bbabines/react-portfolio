@@ -5,9 +5,16 @@ import SectionThree from "./components/section-three/section-three.component";
 import Footer from "./components/footer/footer.component";
 
 const App = () => {
+	const [darkMode, setDarkMode] = React.useState(true);
+
+	const toggleDarkMode = () => {
+		setDarkMode((previousMode) => !previousMode);
+		console.log(darkMode);
+	};
+
 	return (
 		<>
-			<NavBar />
+			<NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 			{/* <SectionOne /> */}
 			{/* <SectionTwo /> */}
 			{/* <SectionThree /> */}

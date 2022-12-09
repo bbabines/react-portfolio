@@ -1,16 +1,9 @@
 import React from "react";
 
-const NavBar = () => {
-	const [lightMode, setLightMode] = React.useState(false);
-
-	const lightModeFunction = () => {
-		setLightMode(!lightMode);
-		console.log(lightMode);
-	};
-
+const NavBar = (props) => {
 	return (
-		<header className="navbar">
-			<button type="button" onClick={lightModeFunction} className="mode">
+		<header className={props.darkMode ? "navbar" : ""}>
+			<button type="button" onClick={props.toggleDarkMode} className="mode">
 				Btn
 			</button>
 			<h3 className="signature">

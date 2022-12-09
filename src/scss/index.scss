@@ -18,14 +18,13 @@ body {
 
 a:link {
 	text-decoration: none;
+	color: $tertiary-color;
 }
 
 a:visited {
-	text-decoration: none;
 	color: $tertiary-color;
 }
 
 a:hover {
-	text-decoration: none;
 	color: $secondary-color;
 }
