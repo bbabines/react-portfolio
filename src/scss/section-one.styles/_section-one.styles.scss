@@ -1,0 +1,39 @@
+.section-one {
+	height: 45vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-one-small-intro {
+	font-size: 1em;
+	color: #5ff1d0;
+}
+
+.section-one-big-intro {
+	font-size: 2em;
+	color: white;
+}
+
+.section-one-second-line {
+	font-size: 2em;
+	color: #8892b0;
+}
+
+.section-one-paragraph {
+	font-size: 1.5em;
+	color: #8892b0;
+}
+
+.resume {
+	max-width: 270px;
+
+	padding: 15px;
+	border: 1px solid #5ff1d0;
+}
+
+.resume-text {
+	font-size: 1.5em;
+	color: #5ff1d0;
+}

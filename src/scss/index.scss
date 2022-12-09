@@ -1,0 +1,31 @@
+@import "./navbar.styles/navbar.styles";
+@import "./section-one.styles/section-one.styles";
+@import "./variables.scss";
+
+* {
+	/* border: solid 1px red; */
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 0px;
+	/* overflow: hidden; */
+
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $primary-color;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: $tertiary-color;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $secondary-color;
+}

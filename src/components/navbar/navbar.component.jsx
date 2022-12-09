@@ -1,7 +1,12 @@
 import React from "react";
 
 const NavBar = () => {
-	// const [lightMode, setLightMode] = useState(false);
+	const [lightMode, setLightMode] = React.useState(false);
+
+	const lightModeFunction = () => {
+		setLightMode(!lightMode);
+		console.log(lightMode);
+	};
 
 	return (
 		<header className="navbar">
@@ -9,7 +14,9 @@ const NavBar = () => {
 				<a href="google.com"> Brad Babines</a>
 			</h3>
 
-			<button type="button">Light Mode</button>
+			<button type="button" onClick={lightModeFunction}>
+				Light Mode
+			</button>
 			<p className="nav-links">
 				<a href="google.com">Home</a>
 			</p>

@@ -1,4 +1,4 @@
-import NavBar from "./components/nav-bar/nav-bar.component";
+import NavBar from "./components/navbar/navbar.component";
 import SectionOne from "./components/section-one/section-one.component";
 import SectionTwo from "./components/section-two/section-two.component";
 import SectionThree from "./components/section-three/section-three.component";
@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<>
 			<NavBar />
-			<SectionOne />
+			{/* <SectionOne /> */}
 			{/* <SectionTwo /> */}
 			{/* <SectionThree /> */}
 			{/* <Footer /> */}
