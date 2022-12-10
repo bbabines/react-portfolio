@@ -114,9 +114,10 @@
 
 // Dark mode button
 
-.dark-mode-button {
+#dark-mode-button {
 	position: relative;
 	top: 0.75em;
+	flex-shrink: 1;
 }
 
 .toggleWrapper {
@@ -126,9 +127,7 @@
 }
 
 .toggleWrapper input {
-	// position: absolute;
 	scale: 5;
-	// left: -99em;
 }
 
 #dn {
