@@ -5,6 +5,8 @@
 	display: flex;
 	align-items: center;
 	height: 15vh;
+	width: 100%;
+	flex-wrap: wrap;
 
 	background-color: $primary-color;
 }
@@ -21,6 +23,7 @@
 	a:link {
 		text-decoration: none;
 		color: $tertiary-color;
+		// flex-grow: 1;
 	}
 
 	a:visited {
@@ -43,7 +46,6 @@
 .nav-links {
 	color: #8892b0;
 	font-size: 1.5em;
-	flex-shrink: 1;
 	margin: 0.5em;
 
 	a:link {
@@ -66,6 +68,8 @@
 	display: flex;
 	align-items: center;
 	height: 15vh;
+	width: 100%;
+	flex-wrap: wrap;
 
 	background-color: $tertiary-color;
 }
@@ -111,8 +115,24 @@
 		color: $fourth-color;
 	}
 }
+// Bootstrap breakpoints: 576px, 768px, 992px, and 1200px
+// Small media query
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	.signature {
+		scale: 0.75;
+		margin: 0;
+	}
+	#dark-mode-button {
+		scale: 0.3;
+	}
 
-// Dark mode button
+	.nav-links {
+		scale: 0.75;
+		margin: 0.5em;
+	}
+}
+
+// Toggle button
 
 #dark-mode-button {
 	position: relative;
