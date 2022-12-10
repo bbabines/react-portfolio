@@ -345,6 +345,7 @@ input:checked + .toggle .star--6 {
 }
 
 * {
+  border: solid 1px red;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;

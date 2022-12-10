@@ -8,8 +8,8 @@ const NavBar = (props) => {
 				<a href="google.com"> Brad Babines</a>
 			</h3>
 
-			<div onClick={props.toggleDarkMode} className="dark-mode-button">
-				<DarkModeButton />
+			<div className="dark-mode-button">
+				<DarkModeButton toggleDarkMode={props.toggleDarkMode} />
 			</div>
 
 			{/* <button type="button" onClick={props.toggleDarkMode} className="mode">

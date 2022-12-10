@@ -1,8 +1,8 @@
 import React from "react";
 
-const DarkModeButton = () => {
+const DarkModeButton = (props) => {
 	return (
-		<div className="toggleWrapper">
+		<div className="toggleWrapper" onClick={props.toggleDarkMode}>
 			<input type="checkbox" className="dn" id="dn" />
 			<label htmlFor="dn" className="toggle">
 				<span className="toggle__handler">
