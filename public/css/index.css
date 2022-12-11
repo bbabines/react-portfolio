@@ -135,6 +135,7 @@
   position: relative;
   top: 0.75em;
   flex-shrink: 1;
+  scale: 0.4;
 }
 
 .toggleWrapper {
