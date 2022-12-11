@@ -17,7 +17,7 @@ const App = () => {
 		<>
 			<NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 			<SectionOne darkMode={darkMode} />
-			{/* <SectionTwo /> */}
+			<SectionTwo darkMode={darkMode} />
 			{/* <SectionThree /> */}
 			{/* <Footer /> */}
 		</>

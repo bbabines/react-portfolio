@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+.about-page {
+	background-color: $primary-color;
+
+	h3 {
+		color: $secondary-color;
+	}
+
+	p {
+		color: $fourth-color;
+	}
+	.section-two-name,
+	.section-two-skills {
+		color: $tertiary-color;
+	}
+}

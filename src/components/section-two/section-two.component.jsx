@@ -1,5 +1,52 @@
 const SectionTwo = () => {
-	return <h1 className="section-two">Section Two</h1>;
+	return (
+		<div className="about-page">
+			<h3 className="about-title">About</h3>
+
+			<p>
+				Hello! My name is <span className="section-two-name">Brad</span> and I
+				enjoy building websites, applications, and immersive experiences. While
+				I’ve always loved computers, my passion for coding is relatively new. I
+				stumbled upon this new venture when a friend and I were trying to bring
+				a concept to life. We were at the point where our ideas needed to be
+				tested but there was no funding for the project. So I decided to learn
+				to code. To my surprise, I loved it!
+				<br />
+				<br />
+				I began using The Odin Project, Free Code Camp, and Codecademy as
+				resources for this new chapter in my life. I decided to leave my formal
+				education and career in healthcare behind. Fast-forward to today and I
+				am working at a software company getting a foundation of technical
+				knowledge under my belt. I continue to refine my coding skills while
+				building my passion project. I'v recently discovered that 3D content,
+				animations, and micro-interactions are a source of joy.
+				<br />
+				<br />
+				Here are a few technologies I’ve been working with recently:
+				<br />
+				<img class="HTML5-icon" src="./assets/HTML5.png" alt="HTML5 Icon" />
+				<img class="CSS-icon" src="./assets/CSS.png" alt="CSS icon" />
+				<img class="JS-icon" src="./assets/JS.png" alt="JavaScript Icon" />
+				<img
+					class="three-js-icon"
+					src="./assets/three-js.png"
+					alt="three.js Icon"
+				/>
+				<br />
+				<br />I am currently refining my skills in{" "}
+				<span className="section-two-skills">
+					Three.js and React three fiber (R3F)
+				</span>
+				.
+				<br />
+				<br />
+				Outside of coding I have strong interests in Brazilian Jiu Jitsu (BJJ),
+				online-gaming, and spending time with my daughter.
+			</p>
+
+			<img class="about-pic" src="../../Brad.jpeg" alt="Profile Pic" />
+		</div>
+	);
 };
 
 export default SectionTwo;

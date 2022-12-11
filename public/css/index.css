@@ -350,7 +350,7 @@ input:checked + .toggle .star--6 {
 }
 
 .section-one {
-  height: 55vh;
+  height: 45vh;
   display: flex;
   flex-shrink: 1;
   flex-direction: column;
@@ -443,6 +443,20 @@ main > div {
     display: none;
   }
 }
+.about-page {
+  background-color: #0a192f;
+}
+.about-page h3 {
+  color: #5ff1d0;
+}
+.about-page p {
+  color: #8892b0;
+}
+.about-page .section-two-name,
+.about-page .section-two-skills {
+  color: white;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
