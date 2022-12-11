@@ -7,7 +7,6 @@ const NavBar = (props) => {
 				<a href="google.com"> Brad Babines</a>
 			</h3>
 
-			{/* Dark mode button */}
 			<div className="toggleWrapper" id="dark-mode-button">
 				<input
 					type="checkbox"
@@ -30,12 +29,6 @@ const NavBar = (props) => {
 				</label>
 			</div>
 
-			{/* <div onClick={props.toggleDarkMode} className="dark-mode-button">
-				<DarkModeButton />
-			</div> */}
-			{/* <button type="button" onClick={props.toggleDarkMode} className="mode">
-				Dark Mode
-			</button> */}
 			<p
 				id="home-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
