@@ -1,9 +1,10 @@
 .section-one {
-	height: 45vh;
+	height: 55vh;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-color: $primary-color;
 }
 
 .section-one-small-intro {

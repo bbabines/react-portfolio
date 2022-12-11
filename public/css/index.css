@@ -350,10 +350,11 @@ input:checked + .toggle .star--6 {
 }
 
 .section-one {
-  height: 45vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #0a192f;
 }
 
 .section-one-small-intro {
