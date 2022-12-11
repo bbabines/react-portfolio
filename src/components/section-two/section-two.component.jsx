@@ -24,18 +24,27 @@ const SectionTwo = () => {
 				<br />
 				Here are a few technologies I’ve been working with recently:
 				<br />
-				<img class="HTML5-icon" src="./assets/HTML5.png" alt="HTML5 Icon" />
-				<img class="CSS-icon" src="./assets/CSS.png" alt="CSS icon" />
-				<img class="JS-icon" src="./assets/JS.png" alt="JavaScript Icon" />
+				<img
+					className="HTML5-icon"
+					src="../assets/HTML5.png"
+					alt="HTML5 Icon"
+				/>
+				<img class="CSS-icon" src="../assets/CSS.png" alt="CSS icon" />
+				<img class="JS-icon" src="../assets/JS.png" alt="JavaScript Icon" />
+				<img
+					className="react-icon"
+					src="../assets/react.png"
+					alt="React Icon"
+				/>
 				<img
 					class="three-js-icon"
-					src="./assets/three-js.png"
+					src="../assets/three-js.png"
 					alt="three.js Icon"
 				/>
 				<br />
 				<br />I am currently refining my skills in{" "}
 				<span className="section-two-skills">
-					Three.js and React three fiber (R3F)
+					Three.js and React Three Fiber (R3F)
 				</span>
 				.
 				<br />
@@ -44,7 +53,7 @@ const SectionTwo = () => {
 				online-gaming, and spending time with my daughter.
 			</p>
 
-			<img class="about-pic" src="../../Brad.jpeg" alt="Profile Pic" />
+			<img className="about-pic" src="../assets/Brad.jpeg" alt="Profile Pic" />
 		</div>
 	);
 };

@@ -445,6 +445,10 @@ main > div {
 }
 .about-page {
   background-color: #0a192f;
+  height: 85vh;
+}
+.about-page .about-title {
+  font-size: 2em;
 }
 .about-page h3 {
   color: #5ff1d0;
@@ -455,6 +459,20 @@ main > div {
 .about-page .section-two-name,
 .about-page .section-two-skills {
   color: white;
+}
+
+.HTML5-icon,
+.CSS-icon,
+.JS-icon,
+.three-js-icon,
+.react-icon {
+  max-height: 50px;
+  max-height: 50px;
+}
+
+.about-pic {
+  max-height: 300px;
+  max-height: 300px;
 }
 
 * {

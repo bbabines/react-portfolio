@@ -2,6 +2,13 @@
 
 .about-page {
 	background-color: $primary-color;
+	height: 85vh;
+	// display: grid;
+	// grid-template-columns: 1fr 1fr;
+
+	.about-title {
+		font-size: 2em;
+	}
 
 	h3 {
 		color: $secondary-color;
@@ -15,3 +22,21 @@
 		color: $tertiary-color;
 	}
 }
+
+.HTML5-icon,
+.CSS-icon,
+.JS-icon,
+.three-js-icon,
+.react-icon {
+	max-height: 50px;
+	max-height: 50px;
+}
+
+.about-pic {
+	max-height: 300px;
+	max-height: 300px;
+}
+
+// .about-page > div {
+// 	margin-left: 2em;
+// }
