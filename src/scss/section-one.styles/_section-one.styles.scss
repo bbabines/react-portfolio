@@ -1,14 +1,31 @@
+@import "../variables.scss";
+
+// Dark mode
 .section-one {
 	height: 45vh;
 
 	display: flex;
+	flex-shrink: 1;
 	flex-direction: column;
 	justify-content: center;
+
+	a:link {
+		text-decoration: none;
+	}
+}
+
+main {
+	background-color: $primary-color;
+}
+
+main > div {
+	margin-left: 2em;
 }
 
 .section-one-small-intro {
 	font-size: 1em;
 	color: #5ff1d0;
+	// margin: 0.5em;
 }
 
 .section-one-big-intro {
@@ -17,7 +34,7 @@
 }
 
 .section-one-second-line {
-	font-size: 2em;
+	font-size: 3.5em;
 	color: #8892b0;
 }
 
@@ -36,4 +53,63 @@
 .resume-text {
 	font-size: 1.5em;
 	color: #5ff1d0;
+}
+
+// Light mode
+
+.main--light {
+	background-color: white;
+}
+
+.section-one--light {
+	height: 45vh;
+
+	display: flex;
+	flex-shrink: 1;
+	flex-direction: column;
+	justify-content: center;
+
+	background-color: white;
+
+	main > div {
+		margin-left: 2em;
+	}
+
+	a:link {
+		text-decoration: none;
+	}
+
+	.section-one-small-intro {
+		font-size: 1em;
+		color: grey;
+		// margin: 0.5em;
+	}
+
+	.section-one-big-intro {
+		font-size: 2em;
+		color: black;
+	}
+
+	.resume-text {
+		font-size: 1.5em;
+		color: black;
+	}
+
+	.resume {
+		max-width: 270px;
+
+		padding: 15px;
+		border: 1px solid black;
+	}
+}
+
+// Small media query
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	.section-one-small-intro {
+		display: none;
+	}
+
+	.section-one-big-intro {
+		display: none;
+	}
 }

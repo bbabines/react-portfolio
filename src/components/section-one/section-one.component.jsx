@@ -1,15 +1,14 @@
-const SectionOne = () => {
+const SectionOne = (props) => {
 	return (
-		<main>
-			<div className="section-one">
+		<main className={props.darkMode ? "main" : "main--light"}>
+			<div className={props.darkMode ? "section-one" : "section-one--light"}>
 				<div className="section-one-small-intro">Hi, my name is</div>
 
-				<div className="section-one-big-intro">
-					Brad Babines
-					<div className="section-one-second-line">
-						I'm a front-end software engineer.
-					</div>
+				<div className="section-one-big-intro">Brad Babines</div>
+				<div className="section-one-second-line">
+					I'm a front-end software engineer.
 				</div>
+
 				<p className="section-one-paragraph">
 					I build digital experiences and tools to help harness collective
 					intelligence. Currently, I’m focused on learning to make these

@@ -1,0 +1,71 @@
+@import "../variables.scss";
+
+.experience-page {
+	background-color: $primary-color;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	.experience-title {
+		font-size: 3em;
+		align-self: flex-start;
+		margin-bottom: 1.5em;
+		color: $secondary-color;
+	}
+
+	h3 {
+		color: $secondary-color;
+	}
+
+	p,
+	div {
+		color: $fourth-color;
+		font-size: 1.2em;
+	}
+
+	.experience-pt-1,
+	.experience-pt-2,
+	.experience-pt-3 {
+		font-size: 1em;
+	}
+}
+
+.experience-right > img {
+	max-height: 600px;
+	border-radius: 50px;
+	height: 50%;
+	width: 80%;
+}
+
+.experience-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.experience-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2em;
+}
+
+.exp-highlight-one,
+.exp-highlight-two,
+.exp-highlight-three,
+.exp-highlight-four {
+	color: $tertiary-color;
+}
+
+// Small media query
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	.experience-page {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.experience-right > img {
+		display: none;
+	}
+}
