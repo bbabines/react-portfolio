@@ -3,11 +3,13 @@
 .about-page {
 	background-color: $primary-color;
 	height: 85vh;
-	// display: grid;
-	// grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 
 	.about-title {
-		font-size: 2em;
+		font-size: 3em;
+		align-self: flex-start;
+		margin-bottom: 1.5em;
 	}
 
 	h3 {
@@ -16,6 +18,7 @@
 
 	p {
 		color: $fourth-color;
+		font-size: 1.3em;
 	}
 	.section-two-name,
 	.section-two-skills {
@@ -33,10 +36,20 @@
 }
 
 .about-pic {
-	max-height: 300px;
-	max-height: 300px;
+	max-height: 600px;
+	max-width: 60%;
 }
 
-// .about-page > div {
-// 	margin-left: 2em;
-// }
+.left-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2em;
+}
+
+.right-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
