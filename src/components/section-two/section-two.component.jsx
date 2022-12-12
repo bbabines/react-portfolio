@@ -3,25 +3,28 @@ const SectionTwo = () => {
 		<div className="about-page">
 			<div className="left-box">
 				<h3 className="about-title">About</h3>
-				<p>
+				<div>
 					Hello! My name is <span className="section-two-name">Brad</span> and I
 					enjoy building websites, applications, and immersive experiences.
-					While I’ve always loved computers, my passion for coding is relatively
-					new. I stumbled upon this new venture when a friend and I were trying
-					to bring a concept to life. We were at the point where our ideas
-					needed to be tested but there was no funding for the project. So I
-					decided to learn to code. To my surprise, I loved it!
-					<br />
-					<br />
-					I began using The Odin Project, Free Code Camp, and Codecademy as
-					resources for this new chapter in my life. I decided to leave my
-					formal education and career in healthcare behind. Fast-forward to
-					today and I am working at a software company getting a foundation of
-					technical knowledge under my belt. I continue to refine my coding
-					skills while building my passion project. I'v recently discovered that
-					3D content, animations, and micro-interactions are a source of joy.
-					<br />
-					<br />
+					<p className="about-story-one">
+						While I’ve always loved computers, my passion for coding is
+						relatively new. I stumbled upon this new venture when a friend and I
+						were trying to bring a concept to life. We were at the point where
+						our ideas needed to be tested but there was no funding for the
+						project. So I decided to learn to code. To my surprise, I loved it!
+					</p>
+					<p className="about-story">
+						I began using The Odin Project, Free Code Camp, and Codecademy as
+						resources for this new chapter in my life. I decided to leave my
+						formal education and career in healthcare behind. Fast-forward to
+						today and I am working at a software company getting a foundation of
+						technical knowledge under my belt.
+					</p>
+					<p className="about-summary">
+						I continue to refine my coding skills while building my passion
+						project. I'v recently discovered that 3D content, animations, and
+						micro-interactions are a source of joy.
+					</p>
 					Here are a few technologies I’ve been working with recently:
 					<br />
 					<img
@@ -46,12 +49,10 @@ const SectionTwo = () => {
 					<span className="section-two-skills">
 						Three.js and React Three Fiber (R3F)
 					</span>
-					.
-					<br />
 					<br />
 					Outside of coding I have strong interests in Brazilian Jiu Jitsu
 					(BJJ), online-gaming, and spending time with my daughter.
-				</p>
+				</div>
 			</div>
 			<div className="right-box">
 				<img

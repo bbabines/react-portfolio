@@ -445,7 +445,7 @@ main > div {
 }
 .about-page {
   background-color: #0a192f;
-  height: 85vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -457,9 +457,15 @@ main > div {
 .about-page h3 {
   color: #5ff1d0;
 }
-.about-page p {
+.about-page p,
+.about-page div {
   color: #8892b0;
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+.about-page .about-summary,
+.about-page .about-story,
+.about-page .about-story-one {
+  font-size: 1em;
 }
 .about-page .section-two-name,
 .about-page .section-two-skills {
@@ -494,6 +500,29 @@ main > div {
   align-items: center;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .about-page {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about-story-one {
+    display: none;
+  }
+  .about-story {
+    display: none;
+  }
+  .about-pic {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .about-story-one {
+    display: none;
+  }
+  .about-story {
+    display: none;
+  }
+}
 * {
   border: solid 1px red;
   box-sizing: border-box;

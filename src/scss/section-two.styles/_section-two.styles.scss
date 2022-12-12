@@ -2,7 +2,7 @@
 
 .about-page {
 	background-color: $primary-color;
-	height: 85vh;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
@@ -16,10 +16,17 @@
 		color: $secondary-color;
 	}
 
-	p {
+	p,
+	div {
 		color: $fourth-color;
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
+	.about-summary,
+	.about-story,
+	.about-story-one {
+		font-size: 1em;
+	}
+
 	.section-two-name,
 	.section-two-skills {
 		color: $tertiary-color;
@@ -52,4 +59,35 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+// Small media query
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	.about-page {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.about-story-one {
+		display: none;
+	}
+
+	.about-story {
+		display: none;
+	}
+
+	.about-pic {
+		display: none;
+	}
+}
+
+// Medium media query
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.about-story-one {
+		display: none;
+	}
+
+	.about-story {
+		display: none;
+	}
 }
