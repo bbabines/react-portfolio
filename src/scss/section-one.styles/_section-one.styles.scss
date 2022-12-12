@@ -105,6 +105,10 @@ main > div {
 
 // Small media query
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+	.section-one {
+		height: 85vh;
+	}
+
 	.section-one-small-intro {
 		display: none;
 	}

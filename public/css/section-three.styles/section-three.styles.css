@@ -56,9 +56,15 @@
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
+    height: 70vh;
   }
   .experience-right > img {
     display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .experience-page {
+    height: 65vh;
   }
 }
 
