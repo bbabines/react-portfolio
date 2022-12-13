@@ -4,7 +4,7 @@ const NavBar = (props) => {
 	return (
 		<header className={props.darkMode ? "navbar" : "nav--light"}>
 			<h3 className={props.darkMode ? "signature" : "signature--light"}>
-				<a href="google.com"> Brad Babines</a>
+				<a href=".section-one"> Brad Babines</a>
 			</h3>
 
 			<div className="toggleWrapper" id="dark-mode-button">
@@ -33,16 +33,16 @@ const NavBar = (props) => {
 				id="home-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
 			>
-				<a href="google.com">Home</a>
+				<a href=".section-one">Home</a>
 			</p>
 			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
-				<a href="google.com">About</a>
+				<a href=".section-two">About</a>
 			</p>
 			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
-				<a href="google.com">Experience</a>
+				<a href=".section-three">Experience</a>
 			</p>
 			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
-				<a href="google.com">Projects</a>
+				<a href=".section-four">Projects</a>
 			</p>
 		</header>
 	);

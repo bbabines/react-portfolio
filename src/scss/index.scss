@@ -2,14 +2,17 @@
 @import "./section-one.styles/section-one.styles";
 @import "./section-two.styles/section-two.styles";
 @import "./section-three.styles/section-three.styles.scss";
+@import "./section-four.styles/section-four.styles.scss";
+@import "./footer-styles/footer.styles";
 @import "./variables.scss";
 
 * {
-	border: solid 1px red;
+	// border: solid 1px red;
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
-	/* overflow: hidden; */
+	// background-color: $primary-color;
+	// overflow: hidden;
 
 	scroll-behavior: smooth;
 }
