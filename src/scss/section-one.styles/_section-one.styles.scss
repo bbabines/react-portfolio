@@ -24,41 +24,41 @@ main > div {
 
 .section-one-small-intro {
 	font-size: 1em;
-	color: #5ff1d0;
+	color: $secondary-color;
 	// margin: 0.5em;
 }
 
 .section-one-big-intro {
 	font-size: 2em;
-	color: white;
+	color: $tertiary-color;
 }
 
 .section-one-second-line {
 	font-size: 3.5em;
-	color: #8892b0;
+	color: $fourth-color;
 }
 
 .section-one-paragraph {
 	font-size: 1.5em;
-	color: #8892b0;
+	color: $fourth-color;
 }
 
 .resume {
 	max-width: 270px;
 
 	padding: 15px;
-	border: 1px solid #5ff1d0;
+	border: 1px solid $secondary-color;
 }
 
 .resume-text {
 	font-size: 1.5em;
-	color: #5ff1d0;
+	color: $secondary-color;
 }
 
 // Light mode
 
 .main--light {
-	background-color: white;
+	background-color: $tertiary-color;
 }
 
 .section-one--light {
@@ -69,7 +69,7 @@ main > div {
 	flex-direction: column;
 	justify-content: center;
 
-	background-color: white;
+	background-color: $tertiary-color;
 
 	main > div {
 		margin-left: 2em;
@@ -81,25 +81,25 @@ main > div {
 
 	.section-one-small-intro {
 		font-size: 1em;
-		color: grey;
+		color: $fourth-color;
 		// margin: 0.5em;
 	}
 
 	.section-one-big-intro {
 		font-size: 2em;
-		color: black;
+		color: $primary-color;
 	}
 
 	.resume-text {
 		font-size: 1.5em;
-		color: black;
+		color: $primary-color;
 	}
 
 	.resume {
 		max-width: 270px;
 
 		padding: 15px;
-		border: 1px solid black;
+		border: 1px solid $primary-color;
 	}
 }
 
@@ -115,5 +115,12 @@ main > div {
 
 	.section-one-big-intro {
 		display: none;
+	}
+}
+
+// Large media query
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+	.section-one {
+		height: 80vh;
 	}
 }

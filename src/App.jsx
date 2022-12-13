@@ -21,7 +21,7 @@ const App = () => {
 			<SectionTwo darkMode={darkMode} />
 			<SectionThree darkMode={darkMode} />
 			<SectionFour darkMode={darkMode} />
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 };

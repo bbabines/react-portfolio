@@ -9,6 +9,9 @@
 	flex-wrap: wrap;
 
 	background-color: $primary-color;
+
+	position: fixed;
+	z-index: +1;
 }
 
 .signature {

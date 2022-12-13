@@ -5,6 +5,8 @@
   width: 100%;
   flex-wrap: wrap;
   background-color: #0a192f;
+  position: fixed;
+  z-index: 1;
 }
 
 .signature {
@@ -419,20 +421,20 @@ main > div {
 }
 .section-one--light .section-one-small-intro {
   font-size: 1em;
-  color: grey;
+  color: #8892b0;
 }
 .section-one--light .section-one-big-intro {
   font-size: 2em;
-  color: black;
+  color: #0a192f;
 }
 .section-one--light .resume-text {
   font-size: 1.5em;
-  color: black;
+  color: #0a192f;
 }
 .section-one--light .resume {
   max-width: 270px;
   padding: 15px;
-  border: 1px solid black;
+  border: 1px solid #0a192f;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -444,6 +446,11 @@ main > div {
   }
   .section-one-big-intro {
     display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+  .section-one {
+    height: 80vh;
   }
 }
 .about-page {
@@ -573,6 +580,7 @@ main > div {
   justify-content: center;
   align-items: center;
   margin-left: 2em;
+  margin-bottom: 6em;
 }
 
 .exp-highlight-one,
@@ -671,6 +679,68 @@ main > div {
     margin-top: 15%;
   }
 }
+footer {
+  width: 100%;
+  height: 15vh;
+  color: #8892b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a192f;
+}
+footer a:link {
+  text-decoration: none;
+  color: white;
+}
+footer a:visited {
+  color: white;
+}
+footer a:hover {
+  color: #5ff1d0;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #5ff1d0;
+}
+
+.footer-email {
+  margin-left: 5px;
+}
+
+.github {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  background-color: #8892b0;
+}
+
+.git-hub-link {
+  position: relative;
+  right: 190px;
+  top: 30px;
+}
+
+.github:hover {
+  background-color: #5ff1d0;
+}
+
+.linkedin-link {
+  position: relative;
+  right: 180px;
+  top: 32px;
+}
+
+.linkedin-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.linkedin-icon:hover {
+  background-color: #5ff1d0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;

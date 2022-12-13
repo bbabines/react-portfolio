@@ -56,8 +56,8 @@
 .prs-thumb:hover,
 .signup-thumb:hover,
 .landing-thumb:hover {
-	border: 1px solid #5ff1d0;
-	box-shadow: 0 0 25px #5ff1d0;
+	border: 1px solid $secondary-color;
+	box-shadow: 0 0 25px $secondary-color;
 	transition-property: box-shadow;
 	transition: box-shadow ease-out 0.2s;
 }
