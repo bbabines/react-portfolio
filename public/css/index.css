@@ -7,6 +7,7 @@
   background-color: #0a192f;
   position: fixed;
   z-index: 1;
+  border-bottom: thin inset #8892b0;
 }
 
 .signature {
@@ -352,7 +353,7 @@ input:checked + .toggle .star--6 {
 }
 
 .section-one {
-  height: 45vh;
+  height: 65vh;
   display: flex;
   flex-shrink: 1;
   flex-direction: column;
@@ -392,6 +393,7 @@ main > div {
 
 .resume {
   max-width: 270px;
+  margin-top: 2.5%;
   padding: 15px;
   border: 1px solid #5ff1d0;
 }
@@ -450,7 +452,7 @@ main > div {
 }
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
   .section-one {
-    height: 80vh;
+    height: 90vh;
   }
 }
 .about-page {
@@ -666,7 +668,7 @@ main > div {
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   .projects-page {
     display: grid;
-    height: 205vh;
+    height: 225vh;
   }
   .projects-page .project-display {
     display: grid;
@@ -742,6 +744,7 @@ footer a:hover {
 }
 
 * {
+  border: solid 1px red;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
