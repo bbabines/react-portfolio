@@ -60,23 +60,20 @@ main > div {
 .main--light {
 	background-color: $tertiary-color;
 }
-
 .section-one--light {
-	height: 45vh;
+	height: 65vh;
 
 	display: flex;
 	flex-shrink: 1;
 	flex-direction: column;
 	justify-content: center;
 
-	background-color: $tertiary-color;
+	a:link {
+		text-decoration: none;
+	}
 
 	main > div {
 		margin-left: 2em;
-	}
-
-	a:link {
-		text-decoration: none;
 	}
 
 	.section-one-small-intro {
@@ -90,16 +87,26 @@ main > div {
 		color: $primary-color;
 	}
 
-	.resume-text {
+	.section-one-second-line {
+		font-size: 3.5em;
+		color: $fourth-color;
+	}
+
+	.section-one-paragraph {
 		font-size: 1.5em;
-		color: $primary-color;
+		color: $fourth-color;
 	}
 
 	.resume {
 		max-width: 270px;
-
+		margin-top: 2.5%;
 		padding: 15px;
 		border: 1px solid $primary-color;
+	}
+
+	.resume-text {
+		font-size: 1.5em;
+		color: $primary-color;
 	}
 }
 
@@ -116,11 +123,21 @@ main > div {
 	.section-one-big-intro {
 		display: none;
 	}
+
+	// Light mode small media query
+	.section-one--light {
+		height: 85vh;
+	}
 }
 
 // Large media query
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
 	.section-one {
+		height: 90vh;
+	}
+
+	// Light mode large media query
+	.section-one--light {
 		height: 90vh;
 	}
 }

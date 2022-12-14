@@ -62,6 +62,70 @@
 	transition: box-shadow ease-out 0.2s;
 }
 
+// Light mode
+
+.projects-page-light {
+	background-color: $tertiary-color;
+	height: 100vh;
+	display: flex;
+	flex-shrink: 1;
+	flex-direction: column;
+	justify-content: center;
+
+	.project-display {
+		margin-left: 2em;
+	}
+	p,
+	div {
+		color: $tertiary-color;
+		font-size: 1.2em;
+	}
+
+	.projects-title {
+		font-size: 3em;
+		align-self: flex-start;
+		margin-bottom: 1.5em;
+		color: $primary-color;
+		margin-left: 1em;
+	}
+
+	.project-display {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	img {
+		height: 100%;
+		width: 75%;
+		max-height: 400px;
+		max-width: 500px;
+	}
+}
+
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five,
+.project-six {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.calc-thumb:hover,
+.dashboard-thumb:hover,
+.etch-thumb:hover,
+.prs-thumb:hover,
+.signup-thumb:hover,
+.landing-thumb:hover {
+	border: 1px solid $primary-color;
+	box-shadow: 0 0 25px $primary-color;
+	transition-property: box-shadow;
+	transition: box-shadow ease-out 0.2s;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 	.projects-page {
 		display: grid;
