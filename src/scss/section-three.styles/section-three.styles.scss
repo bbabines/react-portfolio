@@ -59,6 +59,66 @@
 	color: $tertiary-color;
 }
 
+// Light mode
+.experience-page-light {
+	background-color: $tertiary-color;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	.experience-title {
+		font-size: 3em;
+		align-self: flex-start;
+		margin-bottom: 1.5em;
+		color: $primary-color;
+	}
+
+	h3 {
+		color: $secondary-color;
+	}
+
+	p,
+	div {
+		color: $fourth-color;
+		font-size: 1.2em;
+	}
+
+	.experience-pt-1,
+	.experience-pt-2,
+	.experience-pt-3 {
+		font-size: 1em;
+	}
+
+	.experience-right > img {
+		max-height: 600px;
+		border-radius: 50px;
+		height: 50%;
+		width: 80%;
+	}
+
+	.experience-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.experience-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: 2em;
+		margin-bottom: 6em;
+	}
+
+	.exp-highlight-one,
+	.exp-highlight-two,
+	.exp-highlight-three,
+	.exp-highlight-four {
+		color: $primary-color;
+	}
+}
+
 // Small media query
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 	.experience-page {
@@ -70,11 +130,27 @@
 	.experience-right > img {
 		display: none;
 	}
+
+	// Light mode small media query
+	.experience-page-light {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 70vh;
+
+		.experience-right > img {
+			display: none;
+		}
+	}
 }
 
 // Medium media query
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 	.experience-page {
+		height: 65vh;
+	}
+
+	// Light mode medium query
+	.experience-page-light {
 		height: 65vh;
 	}
 }

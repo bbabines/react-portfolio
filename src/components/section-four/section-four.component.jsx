@@ -1,9 +1,9 @@
 import React from "react";
 
-const SectionFour = () => {
+const SectionFour = (props) => {
 	return (
 		<div>
-			<div className="projects-page">
+			<div className={props.darkMode ? "projects-page" : "projects-page-light"}>
 				<div className="projects-title">Projects</div>
 				<div className="project-display">
 					<div className="project-one">

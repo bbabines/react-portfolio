@@ -1,6 +1,8 @@
-const SectionThree = () => {
+const SectionThree = (props) => {
 	return (
-		<div className="experience-page">
+		<div
+			className={props.darkMode ? "experience-page" : "experience-page-light"}
+		>
 			<div className="experience-left">
 				<div className="experience-title">Experience</div>
 				<p className="experience-pt-1">
