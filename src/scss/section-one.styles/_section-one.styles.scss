@@ -130,6 +130,18 @@ main > div {
 	}
 }
 
+// Medium media query
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.section-one {
+		height: 85vh;
+	}
+
+	// Light mode large media query
+	.section-one--light {
+		height: 85vh;
+	}
+}
+
 // Large media query
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
 	.section-one {

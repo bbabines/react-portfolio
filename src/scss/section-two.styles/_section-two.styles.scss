@@ -131,7 +131,11 @@
 	.about-page {
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 70vh;
+		height: 85vh;
+
+		.right-box {
+			display: none;
+		}
 	}
 
 	.about-story-one {
@@ -151,12 +155,10 @@
 		background-color: $tertiary-color;
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 70vh;
+		height: 85vh;
 
-		.about-title {
-			font-size: 3em;
-			align-self: flex-start;
-			margin-bottom: 1.5em;
+		.right-box {
+			display: none;
 		}
 
 		h3 {
@@ -183,12 +185,57 @@
 
 // Medium media query
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-	.about-story-one {
-		display: none;
+	.about-page {
+		height: 85vh;
+
+		.about-pic {
+			max-height: 60%;
+			max-width: 60%;
+			border-radius: 50px;
+		}
+
+		.about-story-one {
+			display: none;
+		}
+
+		.about-story {
+			display: none;
+		}
+
+		.about-title {
+			margin-top: 1em;
+		}
+
+		.about-pic {
+			margin-top: 5.5em;
+		}
+
+		div {
+			margin-top: -2.5em;
+		}
 	}
 
-	.about-story {
-		display: none;
+	// Light mode large media query
+	.light-about-page {
+		height: 85vh;
+
+		.about-pic {
+			max-height: 60%;
+			max-width: 60%;
+			border-radius: 50px;
+		}
+
+		.about-title {
+			margin-top: 1em;
+		}
+
+		.about-pic {
+			margin-top: 5.5em;
+		}
+
+		div {
+			margin-top: -2.5em;
+		}
 	}
 }
 
