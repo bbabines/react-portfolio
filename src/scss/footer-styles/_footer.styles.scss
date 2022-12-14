@@ -10,6 +10,8 @@
 	align-items: center;
 	background-color: $primary-color;
 
+	border-top: thin inset $fourth-color;
+
 	a:link {
 		text-decoration: none;
 		color: $tertiary-color;
@@ -76,6 +78,8 @@
 	justify-content: center;
 	align-items: center;
 	background-color: $tertiary-color;
+
+	border-top: thin inset $tertiary-color;
 
 	a:link {
 		text-decoration: none;
