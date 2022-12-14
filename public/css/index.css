@@ -466,10 +466,10 @@ main > div {
 }
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
   .section-one {
-    height: 90vh;
+    height: 85vh;
   }
   .section-one--light {
-    height: 90vh;
+    height: 85vh;
   }
 }
 .about-page {
@@ -640,6 +640,44 @@ main > div {
     display: none;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+  .about-page {
+    height: 85vh;
+    font-size: 1.1em;
+  }
+  .about-page .about-pic {
+    max-height: 60%;
+    max-width: 60%;
+    border-radius: 50px;
+  }
+  .about-page .about-title {
+    margin-top: 1em;
+  }
+  .about-page .about-pic {
+    margin-top: 5.5em;
+  }
+  .about-page div {
+    margin-top: -2.5em;
+  }
+  .light-about-page {
+    height: 85vh;
+    font-size: 1.1em;
+  }
+  .light-about-page .about-pic {
+    max-height: 60%;
+    max-width: 60%;
+    border-radius: 50px;
+  }
+  .light-about-page .about-title {
+    margin-top: 1em;
+  }
+  .light-about-page .about-pic {
+    margin-top: 5.5em;
+  }
+  .light-about-page div {
+    margin-top: -2.5em;
+  }
+}
 .experience-page {
   background-color: #0a192f;
   height: 100vh;
@@ -770,6 +808,36 @@ main > div {
   }
   .experience-page-light {
     height: 65vh;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+  .experience-page {
+    height: 85vh;
+  }
+  .experience-page .experience-pt-1 {
+    margin-top: 2em;
+    font-size: 1.1em;
+  }
+  .experience-page .experience-title {
+    margin-bottom: -0.5em;
+  }
+  .experience-page .experience-right > img {
+    max-width: 80%;
+    height: 50%;
+  }
+  .experience-page-light {
+    height: 85vh;
+  }
+  .experience-page-light .experience-pt-1 {
+    margin-top: 2em;
+    font-size: 1.1em;
+  }
+  .experience-page-light .experience-title {
+    margin-bottom: -0.5em;
+  }
+  .experience-page-light .experience-right > img {
+    max-width: 80%;
+    height: 50%;
   }
 }
 .projects-page {
@@ -904,6 +972,32 @@ main > div {
     margin-top: 15%;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+  .projects-page {
+    height: 85vh;
+  }
+  .projects-page .project-display {
+    height: 80%;
+    width: 95%;
+  }
+  .projects-page .projects-title {
+    font-size: 3em;
+  }
+  .projects-page-light {
+    height: 85vh;
+  }
+  .projects-page-light .project-display {
+    height: 75%;
+    width: 95%;
+  }
+  .projects-page-light .projects-title {
+    font-size: 3em;
+  }
+  .projects-page-light p,
+  .projects-page-light div {
+    color: #0a192f;
+  }
+}
 .footer {
   width: 100%;
   height: 15vh;
@@ -912,6 +1006,7 @@ main > div {
   justify-content: center;
   align-items: center;
   background-color: #0a192f;
+  border-top: thin inset #8892b0;
 }
 .footer a:link {
   text-decoration: none;
@@ -974,6 +1069,7 @@ main > div {
   justify-content: center;
   align-items: center;
   background-color: white;
+  border-top: thin inset white;
 }
 .footer-light a:link {
   text-decoration: none;

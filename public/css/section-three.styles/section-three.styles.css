@@ -130,5 +130,35 @@
     height: 65vh;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 2400px) {
+  .experience-page {
+    height: 85vh;
+  }
+  .experience-page .experience-pt-1 {
+    margin-top: 2em;
+    font-size: 1.1em;
+  }
+  .experience-page .experience-title {
+    margin-bottom: -0.5em;
+  }
+  .experience-page .experience-right > img {
+    max-width: 80%;
+    height: 50%;
+  }
+  .experience-page-light {
+    height: 85vh;
+  }
+  .experience-page-light .experience-pt-1 {
+    margin-top: 2em;
+    font-size: 1.1em;
+  }
+  .experience-page-light .experience-title {
+    margin-bottom: -0.5em;
+  }
+  .experience-page-light .experience-right > img {
+    max-width: 80%;
+    height: 50%;
+  }
+}
 
 /*# sourceMappingURL=section-three.styles.css.map */
