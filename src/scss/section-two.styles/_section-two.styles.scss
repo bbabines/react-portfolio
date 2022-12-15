@@ -136,6 +136,11 @@
 		.right-box {
 			display: none;
 		}
+
+		.about-title {
+			margin-top: 2em;
+			margin-bottom: 0.5em;
+		}
 	}
 
 	.about-story-one {
@@ -151,6 +156,7 @@
 	}
 
 	// Light mode small media query
+
 	.light-about-page {
 		background-color: $tertiary-color;
 		display: grid;
@@ -159,6 +165,11 @@
 
 		.right-box {
 			display: none;
+		}
+
+		.about-title {
+			margin-top: 2em;
+			margin-bottom: 0.5em;
 		}
 
 		h3 {

@@ -123,7 +123,7 @@
 	}
 }
 // Bootstrap breakpoints: 576px, 768px, 992px, and 1200px
-// Small to medium media query
+// Small media query
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 	.navbar {
 		display: grid;
@@ -136,6 +136,18 @@
 		.nav-links {
 			scale: 0.75;
 			margin: 0px;
+		}
+
+		#about-link {
+			margin-left: 0.5em;
+		}
+
+		#project-link {
+			margin-right: 1.1em;
+		}
+
+		.toggleWrapper {
+			margin-left: 2em;
 		}
 	}
 
@@ -159,6 +171,18 @@
 		.nav-links--light {
 			scale: 0.75;
 			margin: 0px;
+		}
+
+		#about-link {
+			margin-left: 0.5em;
+		}
+
+		#project-link {
+			margin-right: 1.1em;
+		}
+
+		.toggleWrapper {
+			margin-left: 2em;
 		}
 	}
 

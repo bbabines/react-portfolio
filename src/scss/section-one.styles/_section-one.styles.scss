@@ -124,9 +124,17 @@ main > div {
 		display: none;
 	}
 
+	.section-one-second-line {
+		color: $secondary-color;
+	}
+
 	// Light mode small media query
 	.section-one--light {
 		height: 85vh;
+
+		.section-one-second-line {
+			color: $primary-color;
+		}
 	}
 }
 

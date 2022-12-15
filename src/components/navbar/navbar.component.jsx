@@ -36,13 +36,19 @@ const NavBar = (props) => {
 			>
 				<Link to="/">Home</Link>
 			</p>
-			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
+			<p
+				id="about-link"
+				className={props.darkMode ? "nav-links" : "nav-links--light"}
+			>
 				<Link to="/section-two">About</Link>
 			</p>
 			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
 				<Link to="/section-three">Experience</Link>
 			</p>
-			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
+			<p
+				id="project-link"
+				className={props.darkMode ? "nav-links" : "nav-links--light"}
+			>
 				<Link to="/section-four">Projects</Link>
 			</p>
 		</header>
