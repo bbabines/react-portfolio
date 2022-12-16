@@ -3,11 +3,13 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "/",
 	"scripts": {
 		"start": "react-scripts start",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"build": "react-scripts build"
+		"build": "react-scripts build",
+		"watch": "npx sass --watch src/scss:public/css "
 	},
 	"keywords": [],
 	"author": "",
