@@ -99,7 +99,7 @@
   color: #8892b0;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .navbar {
     display: grid;
     grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
@@ -163,7 +163,7 @@
     scale: 0.3;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .navbar {
     display: grid;
     grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
@@ -532,7 +532,7 @@ main > div {
   color: #0a192f;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .section-one {
     height: 85vh;
   }
@@ -562,7 +562,7 @@ main > div {
     margin-top: 1em;
   }
 }
-@media only screen and (min-width: 500) and (max-width: 767px) {
+@media only screen and (min-width: 600) and (max-width: 767px) {
   .section-one {
     height: 85vh;
   }
@@ -714,7 +714,7 @@ main > div {
   align-items: center;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .about-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -767,7 +767,7 @@ main > div {
     color: #0a192f;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .about-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -1006,7 +1006,7 @@ main > div {
   color: #0a192f;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -1036,7 +1036,7 @@ main > div {
     display: none;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -1240,7 +1240,7 @@ main > div {
   transition: box-shadow ease-out 0.2s;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .projects-page {
     display: grid;
     height: 225vh;
@@ -1282,7 +1282,7 @@ main > div {
     padding: 0px;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .projects-page {
     display: grid;
     height: 225vh;

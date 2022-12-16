@@ -127,7 +127,7 @@
 }
 
 // Very small media query
-@media only screen and (min-width: 200px) and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
 	.projects-page {
 		display: grid;
 		height: 225vh;
@@ -179,7 +179,7 @@
 }
 
 // Small media query
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
 	.projects-page {
 		display: grid;
 		height: 225vh;
