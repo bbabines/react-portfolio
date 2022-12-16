@@ -126,8 +126,76 @@
 	align-items: center;
 }
 
+// Very small media query
+@media only screen and (min-width: 200px) and (max-width: 499px) {
+	.about-page {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 86vh;
+
+		.right-box {
+			display: none;
+		}
+
+		.about-title {
+			margin-top: 2em;
+			margin-bottom: 0.5em;
+		}
+	}
+
+	.about-story-one {
+		display: none;
+	}
+
+	.about-story {
+		display: none;
+	}
+
+	.about-pic {
+		display: none;
+	}
+
+	// Light mode very small media query
+
+	.light-about-page {
+		background-color: $tertiary-color;
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 86vh;
+
+		.right-box {
+			display: none;
+		}
+
+		.about-title {
+			margin-top: 2em;
+			margin-bottom: 0.5em;
+		}
+
+		h3 {
+			color: $primary-color;
+		}
+
+		p,
+		div {
+			color: $fourth-color;
+			font-size: 1.1em;
+		}
+		.about-summary,
+		.about-story,
+		.about-story-one {
+			font-size: 1em;
+		}
+
+		.section-two-name,
+		.section-two-skills {
+			color: $primary-color;
+		}
+	}
+}
+
 // Small media query
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
 	.about-page {
 		display: grid;
 		grid-template-columns: 1fr;

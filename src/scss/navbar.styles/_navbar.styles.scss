@@ -122,9 +122,91 @@
 		color: $fourth-color;
 	}
 }
-// Bootstrap breakpoints: 576px, 768px, 992px, and 1200px
+
+// Very Small media query
+@media only screen and (min-width: 200px) and (max-width: 499px) {
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
+
+		#home-link {
+			display: none;
+		}
+
+		.nav-links {
+			margin: 0px;
+			font-size: 80%;
+		}
+
+		#about-link {
+			margin-left: 1.5em;
+		}
+
+		#experience-link {
+			margin-left: 1em;
+		}
+
+		#project-link {
+			margin-left: 0.5em;
+		}
+
+		.toggleWrapper {
+			margin-left: 2em;
+			scale: 50%;
+		}
+	}
+
+	.signature {
+		scale: 0.55;
+		margin: 0;
+	}
+	#dark-mode-button {
+		scale: 0.3;
+	}
+
+	// Light mode very small media query
+	.nav--light {
+		display: grid;
+		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
+
+		#home-link {
+			display: none;
+		}
+
+		.nav-links--light {
+			margin: 0px;
+			font-size: 80%;
+		}
+
+		#about-link {
+			margin-left: 1.5em;
+		}
+
+		#experience-link {
+			margin-left: 1em;
+		}
+
+		#project-link {
+			margin-left: 0.5em;
+		}
+
+		.toggleWrapper {
+			margin-left: 2em;
+			scale: 50%;
+		}
+	}
+
+	.signature--light {
+		scale: 0.55;
+		margin: 0;
+	}
+	#dark-mode-button {
+		scale: 0.3;
+	}
+}
+
 // Small media query
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
 	.navbar {
 		display: grid;
 		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;

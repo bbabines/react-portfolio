@@ -110,8 +110,49 @@ main > div {
 	}
 }
 
+// Very small media query
+@media only screen and (min-width: 200px) and (max-width: 499px) {
+	.section-one {
+		height: 85vh;
+	}
+
+	.section-one-second-line {
+		margin-top: 1em;
+	}
+
+	.section-one-paragraph {
+		margin-top: 1em;
+	}
+
+	.resume {
+		margin-top: 1em;
+	}
+
+	.section-one-small-intro {
+		display: none;
+	}
+
+	.section-one-big-intro {
+		display: none;
+	}
+
+	.section-one-second-line {
+		color: $secondary-color;
+	}
+
+	// Light mode very small media query
+	.section-one--light {
+		height: 85vh;
+
+		.section-one-second-line {
+			color: $primary-color;
+			margin-top: 1em;
+		}
+	}
+}
+
 // Small media query
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 500) and (max-width: 767px) {
 	.section-one {
 		height: 85vh;
 	}
