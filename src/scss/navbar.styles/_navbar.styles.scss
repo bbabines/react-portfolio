@@ -122,9 +122,107 @@
 		color: $fourth-color;
 	}
 }
-// Bootstrap breakpoints: 576px, 768px, 992px, and 1200px
+
+// Very Small media query
+@media only screen and (max-width: 450px) {
+	.navbar {
+		display: grid;
+		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
+
+		#home-link {
+			display: none;
+		}
+
+		.nav-links {
+			font-size: 60%;
+			display: flex;
+			flex-shrink: 1;
+		}
+
+		#about-link {
+			margin-left: 0px;
+			margin-right: 0px;
+			justify-self: center;
+		}
+
+		#experience-link {
+			justify-self: center;
+		}
+
+		#project-link {
+			justify-self: center;
+		}
+
+		.toggleWrapper {
+			scale: 30%;
+		}
+
+		.toggle {
+			scale: 70%;
+		}
+	}
+
+	.signature {
+		scale: 0.45;
+		margin: 0;
+	}
+	#dark-mode-button {
+		scale: 0.3;
+	}
+
+	// Light mode very small media query
+	.nav--light {
+		display: grid;
+		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
+
+		#home-link {
+			display: none;
+		}
+
+		.nav-links--light {
+			font-size: 60%;
+			display: flex;
+			flex-shrink: 1;
+		}
+
+		#home-link {
+			display: none;
+		}
+
+		#about-link {
+			margin-left: 0px;
+			margin-right: 0px;
+			justify-self: center;
+		}
+
+		#experience-link {
+			justify-self: center;
+		}
+
+		#project-link {
+			justify-self: center;
+		}
+
+		.toggleWrapper {
+			scale: 30%;
+		}
+
+		.toggle {
+			scale: 70%;
+		}
+	}
+
+	.signature--light {
+		scale: 0.45;
+		margin: 0;
+	}
+	#dark-mode-button {
+		scale: 0.3;
+	}
+}
+
 // Small media query
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 451px) and (max-width: 767px) {
 	.navbar {
 		display: grid;
 		grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
@@ -139,11 +237,15 @@
 		}
 
 		#about-link {
-			margin-left: 0.5em;
+			justify-self: center;
 		}
 
 		#project-link {
-			margin-right: 1.1em;
+			justify-self: center;
+		}
+
+		#experience-link {
+			justify-self: center;
 		}
 
 		.toggleWrapper {
@@ -174,11 +276,15 @@
 		}
 
 		#about-link {
-			margin-left: 0.5em;
+			justify-self: center;
+		}
+
+		#experience-link {
+			justify-self: center;
 		}
 
 		#project-link {
-			margin-right: 1.1em;
+			justify-self: center;
 		}
 
 		.toggleWrapper {

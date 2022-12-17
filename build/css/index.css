@@ -99,7 +99,7 @@
   color: #8892b0;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
   .navbar {
     display: grid;
     grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
@@ -108,29 +108,24 @@
     display: none;
   }
   .navbar .nav-links {
-    font-size: 60%;
-    display: flex;
-    flex-shrink: 1;
+    margin: 0px;
+    font-size: 80%;
   }
   .navbar #about-link {
-    margin-left: 0px;
-    margin-right: 0px;
-    justify-self: center;
+    margin-left: 1.5em;
   }
   .navbar #experience-link {
-    justify-self: center;
+    margin-left: 1em;
   }
   .navbar #project-link {
-    justify-self: center;
+    margin-left: 0.5em;
   }
   .navbar .toggleWrapper {
-    scale: 30%;
-  }
-  .navbar .toggle {
-    scale: 70%;
+    margin-left: 2em;
+    scale: 50%;
   }
   .signature {
-    scale: 0.45;
+    scale: 0.55;
     margin: 0;
   }
   #dark-mode-button {
@@ -144,39 +139,31 @@
     display: none;
   }
   .nav--light .nav-links--light {
-    font-size: 60%;
-    display: flex;
-    flex-shrink: 1;
-  }
-  .nav--light #home-link {
-    display: none;
+    margin: 0px;
+    font-size: 80%;
   }
   .nav--light #about-link {
-    margin-left: 0px;
-    margin-right: 0px;
-    justify-self: center;
+    margin-left: 1.5em;
   }
   .nav--light #experience-link {
-    justify-self: center;
+    margin-left: 1em;
   }
   .nav--light #project-link {
-    justify-self: center;
+    margin-left: 0.5em;
   }
   .nav--light .toggleWrapper {
-    scale: 30%;
-  }
-  .nav--light .toggle {
-    scale: 70%;
+    margin-left: 2em;
+    scale: 50%;
   }
   .signature--light {
-    scale: 0.45;
+    scale: 0.55;
     margin: 0;
   }
   #dark-mode-button {
     scale: 0.3;
   }
 }
-@media only screen and (min-width: 451px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .navbar {
     display: grid;
     grid-template-columns: 1fr 0.25fr 1fr 1fr 1fr;
@@ -189,13 +176,10 @@
     margin: 0px;
   }
   .navbar #about-link {
-    justify-self: center;
+    margin-left: 0.5em;
   }
   .navbar #project-link {
-    justify-self: center;
-  }
-  .navbar #experience-link {
-    justify-self: center;
+    margin-right: 1.1em;
   }
   .navbar .toggleWrapper {
     margin-left: 2em;
@@ -219,13 +203,10 @@
     margin: 0px;
   }
   .nav--light #about-link {
-    justify-self: center;
-  }
-  .nav--light #experience-link {
-    justify-self: center;
+    margin-left: 0.5em;
   }
   .nav--light #project-link {
-    justify-self: center;
+    margin-right: 1.1em;
   }
   .nav--light .toggleWrapper {
     margin-left: 2em;
@@ -1501,6 +1482,7 @@ main > div {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=index.css.map */

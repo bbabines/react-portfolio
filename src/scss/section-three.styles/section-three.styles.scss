@@ -119,8 +119,48 @@
 	}
 }
 
+// Very small media query
+@media only screen and (min-width: 200px) and (max-width: 599px) {
+	.experience-page {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 95vh;
+
+		.experience-left {
+			height: 120%;
+		}
+
+		.experience-title {
+			margin-bottom: 0.5em;
+		}
+	}
+
+	.experience-right > img {
+		display: none;
+	}
+
+	// Light mode very small media query
+	.experience-page-light {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 95vh;
+
+		.experience-left {
+			height: 120%;
+		}
+
+		.experience-title {
+			margin-bottom: 0.5em;
+		}
+
+		.experience-right > img {
+			display: none;
+		}
+	}
+}
+
 // Small media query
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
 	.experience-page {
 		display: grid;
 		grid-template-columns: 1fr;

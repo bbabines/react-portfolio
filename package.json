@@ -3,9 +3,13 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "/",
 	"scripts": {
 		"start": "react-scripts start",
-		"watch": " npx sass --watch src/scss:public/css"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"build": "react-scripts build",
+		"watch": "npx sass --watch src/scss:public/css "
 	},
 	"keywords": [],
 	"author": "",
@@ -28,5 +32,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^4.0.0"
 	}
 }

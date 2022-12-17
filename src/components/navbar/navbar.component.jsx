@@ -42,7 +42,10 @@ const NavBar = (props) => {
 			>
 				<Link to="/section-two">About</Link>
 			</p>
-			<p className={props.darkMode ? "nav-links" : "nav-links--light"}>
+			<p
+				id="experience-link"
+				className={props.darkMode ? "nav-links" : "nav-links--light"}
+			>
 				<Link to="/section-three">Experience</Link>
 			</p>
 			<p
