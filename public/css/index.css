@@ -551,15 +551,16 @@ main > div {
   color: #0a192f;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
   .section-one {
     height: 85vh;
   }
   .section-one-second-line {
-    margin-top: 1em;
+    margin-top: 2em;
+    font-size: 2em;
   }
   .section-one-paragraph {
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
   .resume {
     margin-top: 1em;
@@ -579,9 +580,14 @@ main > div {
   .section-one--light .section-one-second-line {
     color: #0a192f;
     margin-top: 1em;
+    margin-top: 2em;
+    font-size: 2em;
+  }
+  .section-one--light .section-one-paragraph {
+    margin-top: 0.5em;
   }
 }
-@media only screen and (min-width: 600) and (max-width: 767px) {
+@media only screen and (min-width: 451) and (max-width: 767px) {
   .section-one {
     height: 85vh;
   }
@@ -1497,6 +1503,30 @@ main > div {
   border-radius: 100px;
 }
 
+@media only screen and (max-width: 450px) {
+  .footer-title {
+    display: none;
+  }
+  .footer-email {
+    margin-left: 4em;
+    margin-bottom: 1.5em;
+  }
+  .linkedin-icon,
+  .git-hub-link {
+    margin-bottom: 0.5em;
+  }
+  .footer-light .footer-title {
+    display: none;
+  }
+  .footer-light .footer-email {
+    margin-left: 4em;
+    margin-bottom: 1.5em;
+  }
+  .footer-light .linkedin-icon,
+  .footer-light .git-hub-link {
+    margin-bottom: 0.5em;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0px;

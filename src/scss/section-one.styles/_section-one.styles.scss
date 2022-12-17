@@ -111,17 +111,18 @@ main > div {
 }
 
 // Very small media query
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
 	.section-one {
 		height: 85vh;
 	}
 
 	.section-one-second-line {
-		margin-top: 1em;
+		margin-top: 2em;
+		font-size: 2em;
 	}
 
 	.section-one-paragraph {
-		margin-top: 1em;
+		margin-top: 0.5em;
 	}
 
 	.resume {
@@ -147,12 +148,18 @@ main > div {
 		.section-one-second-line {
 			color: $primary-color;
 			margin-top: 1em;
+			margin-top: 2em;
+			font-size: 2em;
+		}
+
+		.section-one-paragraph {
+			margin-top: 0.5em;
 		}
 	}
 }
 
 // Small media query
-@media only screen and (min-width: 600) and (max-width: 767px) {
+@media only screen and (min-width: 451) and (max-width: 767px) {
 	.section-one {
 		height: 85vh;
 	}
