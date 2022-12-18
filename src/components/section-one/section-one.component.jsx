@@ -16,7 +16,7 @@ const SectionOne = (props) => {
 				</p>
 				<div className="resume">
 					<a
-						href="./assets/Brad's Resume.pdf"
+						href="./assets/brad-resume.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
