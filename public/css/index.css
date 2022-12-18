@@ -739,11 +739,11 @@ main > div {
   align-items: center;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
   .about-page {
     display: grid;
     grid-template-columns: 1fr;
-    height: 86vh;
+    height: 88vh;
   }
   .about-page .right-box {
     display: none;
@@ -751,6 +751,12 @@ main > div {
   .about-page .about-title {
     margin-top: 2em;
     margin-bottom: 0.5em;
+  }
+  .about-page .section-two-skills {
+    display: none;
+  }
+  .about-page .section-two-personal {
+    display: none;
   }
   .about-story-one {
     display: none;
@@ -765,7 +771,7 @@ main > div {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
-    height: 86vh;
+    height: 88vh;
   }
   .light-about-page .right-box {
     display: none;
@@ -773,6 +779,21 @@ main > div {
   .light-about-page .about-title {
     margin-top: 2em;
     margin-bottom: 0.5em;
+  }
+  .light-about-page .section-two-skills {
+    display: none;
+  }
+  .light-about-page .section-two-personal {
+    display: none;
+  }
+  .light-about-page .about-story-one {
+    display: none;
+  }
+  .light-about-page .about-story {
+    display: none;
+  }
+  .light-about-page .about-pic {
+    display: none;
   }
   .light-about-page h3 {
     color: #0a192f;
@@ -792,7 +813,7 @@ main > div {
     color: #0a192f;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451) and (max-width: 767px) {
   .about-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -1031,17 +1052,18 @@ main > div {
   color: #0a192f;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
-    height: 95vh;
+    height: 100%;
   }
   .experience-page .experience-left {
-    height: 120%;
+    height: 100%;
   }
   .experience-page .experience-title {
     margin-bottom: 0.5em;
+    margin-top: 1em;
   }
   .experience-right > img {
     display: none;
@@ -1049,19 +1071,20 @@ main > div {
   .experience-page-light {
     display: grid;
     grid-template-columns: 1fr;
-    height: 95vh;
+    height: 100%;
   }
   .experience-page-light .experience-left {
-    height: 120%;
+    height: 100%;
   }
   .experience-page-light .experience-title {
     margin-bottom: 0.5em;
+    margin-top: 1em;
   }
   .experience-page-light .experience-right > img {
     display: none;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451px) and (max-width: 767px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -1265,10 +1288,10 @@ main > div {
   transition: box-shadow ease-out 0.2s;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
   .projects-page {
     display: grid;
-    height: 225vh;
+    height: 190vh;
   }
   .projects-page .project-display {
     display: grid;
@@ -1286,7 +1309,7 @@ main > div {
   }
   .projects-page-light {
     display: grid;
-    height: 225vh;
+    height: 190vh;
   }
   .projects-page-light .project-display {
     display: grid;
@@ -1295,7 +1318,7 @@ main > div {
     column-gap: 2%;
     flex-direction: row;
     margin-top: 0px;
-    padding: 0p x;
+    padding: 0px;
   }
   .projects-page-light p,
   .projects-page-light div {
@@ -1307,7 +1330,7 @@ main > div {
     padding: 0px;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451px) and (max-width: 767px) {
   .projects-page {
     display: grid;
     height: 225vh;
@@ -1504,6 +1527,9 @@ main > div {
 }
 
 @media only screen and (max-width: 450px) {
+  .footer {
+    height: 21vh;
+  }
   .footer-title {
     display: none;
   }
@@ -1514,6 +1540,9 @@ main > div {
   .linkedin-icon,
   .git-hub-link {
     margin-bottom: 0.5em;
+  }
+  .footer {
+    height: 21vh;
   }
   .footer-light .footer-title {
     display: none;

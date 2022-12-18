@@ -127,11 +127,11 @@
 }
 
 // Very small media query
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
 	.about-page {
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 86vh;
+		height: 88vh;
 
 		.right-box {
 			display: none;
@@ -140,6 +140,14 @@
 		.about-title {
 			margin-top: 2em;
 			margin-bottom: 0.5em;
+		}
+
+		.section-two-skills {
+			display: none;
+		}
+
+		.section-two-personal {
+			display: none;
 		}
 	}
 
@@ -161,7 +169,7 @@
 		background-color: $tertiary-color;
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 86vh;
+		height: 88vh;
 
 		.right-box {
 			display: none;
@@ -170,6 +178,26 @@
 		.about-title {
 			margin-top: 2em;
 			margin-bottom: 0.5em;
+		}
+
+		.section-two-skills {
+			display: none;
+		}
+
+		.section-two-personal {
+			display: none;
+		}
+
+		.about-story-one {
+			display: none;
+		}
+
+		.about-story {
+			display: none;
+		}
+
+		.about-pic {
+			display: none;
 		}
 
 		h3 {
@@ -195,7 +223,7 @@
 }
 
 // Small media query
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451) and (max-width: 767px) {
 	.about-page {
 		display: grid;
 		grid-template-columns: 1fr;

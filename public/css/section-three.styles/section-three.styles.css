@@ -104,17 +104,18 @@
   color: #0a192f;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;
-    height: 95vh;
+    height: 100%;
   }
   .experience-page .experience-left {
-    height: 120%;
+    height: 100%;
   }
   .experience-page .experience-title {
     margin-bottom: 0.5em;
+    margin-top: 1em;
   }
   .experience-right > img {
     display: none;
@@ -122,19 +123,20 @@
   .experience-page-light {
     display: grid;
     grid-template-columns: 1fr;
-    height: 95vh;
+    height: 100%;
   }
   .experience-page-light .experience-left {
-    height: 120%;
+    height: 100%;
   }
   .experience-page-light .experience-title {
     margin-bottom: 0.5em;
+    margin-top: 1em;
   }
   .experience-page-light .experience-right > img {
     display: none;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451px) and (max-width: 767px) {
   .experience-page {
     display: grid;
     grid-template-columns: 1fr;

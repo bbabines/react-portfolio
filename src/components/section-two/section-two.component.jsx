@@ -25,7 +25,9 @@ const SectionTwo = (props) => {
 						project. I'v recently discovered that 3D content, animations, and
 						micro-interactions are a source of joy.
 					</p>
-					Here are a few technologies I’ve been working with recently:
+					<p className="technologies">
+						Here are a few technologies I’ve been working with recently:
+					</p>
 					<br />
 					<img
 						className="HTML5-icon"
@@ -45,13 +47,16 @@ const SectionTwo = (props) => {
 						alt="three.js Icon"
 					/>
 					<br />
-					<br />I am currently refining my skills in{" "}
 					<span className="section-two-skills">
-						Three.js and React Three Fiber (R3F)
+						<br />I am currently refining my skills in Three.js and React Three
+						Fiber (R3F)
 					</span>
 					<br />
-					Outside of coding I have strong interests in Brazilian Jiu Jitsu
-					(BJJ), online-gaming, and spending time with my daughter.
+					<span className="section-two-personal">
+						<br />
+						Outside of coding I have strong interests in Brazilian Jiu Jitsu
+						(BJJ), online-gaming, and spending time with my daughter.
+					</span>
 				</div>
 			</div>
 			<div className="right-box">
