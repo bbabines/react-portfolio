@@ -1556,6 +1556,14 @@ main > div {
     margin-bottom: 0.5em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer {
+    height: 21vh;
+  }
+  .footer-light {
+    height: 21vh;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0px;
