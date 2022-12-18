@@ -127,10 +127,10 @@
 }
 
 // Very small media query
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
 	.projects-page {
 		display: grid;
-		height: 225vh;
+		height: 190vh;
 
 		.project-display {
 			display: grid;
@@ -153,7 +153,7 @@
 	// Light mode very small media query
 	.projects-page-light {
 		display: grid;
-		height: 225vh;
+		height: 190vh;
 
 		.project-display {
 			display: grid;
@@ -163,7 +163,7 @@
 
 			flex-direction: row;
 			margin-top: 0px;
-			padding: 0p x;
+			padding: 0px;
 		}
 		p,
 		div {
@@ -179,7 +179,7 @@
 }
 
 // Small media query
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 451px) and (max-width: 767px) {
 	.projects-page {
 		display: grid;
 		height: 225vh;

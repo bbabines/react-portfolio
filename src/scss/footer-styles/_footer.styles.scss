@@ -137,3 +137,45 @@
 	// 	background-color: $primary-color;
 	// }
 }
+
+// Very small media query
+@media only screen and (max-width: 450px) {
+	.footer {
+		height: 21vh;
+	}
+
+	.footer-title {
+		display: none;
+	}
+
+	.footer-email {
+		margin-left: 4em;
+		margin-bottom: 1.5em;
+	}
+
+	.linkedin-icon,
+	.git-hub-link {
+		margin-bottom: 0.5em;
+	}
+
+	// Light mode very small media query
+	.footer {
+		height: 21vh;
+	}
+
+	.footer-light {
+		.footer-title {
+			display: none;
+		}
+
+		.footer-email {
+			margin-left: 4em;
+			margin-bottom: 1.5em;
+		}
+
+		.linkedin-icon,
+		.git-hub-link {
+			margin-bottom: 0.5em;
+		}
+	}
+}
