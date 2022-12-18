@@ -179,3 +179,15 @@
 		}
 	}
 }
+
+// Medium media query
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	.footer {
+		height: 21vh;
+	}
+
+	// Light mode large media query
+	.footer-light {
+		height: 21vh;
+	}
+}
