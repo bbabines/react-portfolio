@@ -6,6 +6,21 @@ const SectionFour = (props) => {
 			<div className={props.darkMode ? "projects-page" : "projects-page-light"}>
 				<div className="projects-title">Projects</div>
 				<div className="project-display">
+					<div className="brads-clothing">
+						E-Commerce Clothing
+						<a
+							href="https://brads-clothing.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="brads-clothing-thumb"
+								src="./assets/brads-clothing-thumb.png"
+								alt="A e-commerce clothing store"
+							/>
+						</a>
+					</div>
+
 					<div className="project-one">
 						Calculator
 						<a
@@ -80,7 +95,7 @@ const SectionFour = (props) => {
 							/>
 						</a>
 					</div>
-
+					{/* 
 					<div className="project-six">
 						Landing Page
 						<a
@@ -94,7 +109,7 @@ const SectionFour = (props) => {
 								alt="Landing page thumbnail"
 							/>
 						</a>
-					</div>
+					</div> */}
 				</div>
 			</div>
 
