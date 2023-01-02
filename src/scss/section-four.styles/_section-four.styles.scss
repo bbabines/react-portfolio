@@ -295,3 +295,13 @@
 		}
 	}
 }
+
+// Very large media query
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+	.projects-page-light {
+		p,
+		div {
+			color: $primary-color;
+		}
+	}
+}

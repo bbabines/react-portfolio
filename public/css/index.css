@@ -1426,6 +1426,12 @@ main > div {
     color: #0a192f;
   }
 }
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+  .projects-page-light p,
+  .projects-page-light div {
+    color: #0a192f;
+  }
+}
 .footer {
   width: 100%;
   height: 15vh;
