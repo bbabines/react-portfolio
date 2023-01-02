@@ -209,3 +209,14 @@ main > div {
 		height: 85vh;
 	}
 }
+
+// Very large media query
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+	.section-one {
+		height: 85vh;
+	}
+	// Light mode large media query
+	.section-one--light {
+		height: 85vh;
+	}
+}

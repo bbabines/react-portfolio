@@ -623,6 +623,14 @@ main > div {
     height: 85vh;
   }
 }
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+  .section-one {
+    height: 85vh;
+  }
+  .section-one--light {
+    height: 85vh;
+  }
+}
 .about-page {
   background-color: #0a192f;
   height: 110vh;
@@ -1212,7 +1220,8 @@ main > div {
 .project-three,
 .project-four,
 .project-five,
-.project-six {
+.project-six,
+.brads-clothing {
   display: flex;
   flex-direction: column;
   text-align: center;
