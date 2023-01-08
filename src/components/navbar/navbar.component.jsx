@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
 	return (
 		<header className={props.darkMode ? "navbar" : "nav--light"}>
 			<h3 className={props.darkMode ? "signature" : "signature--light"}>
-				<Link to="/"> Brad Babines</Link>
+				<a href="/"> Brad Babines</a>
 			</h3>
 
 			<div className="toggleWrapper" id="dark-mode-button">
@@ -34,25 +34,25 @@ const NavBar = (props) => {
 				id="home-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
 			>
-				<Link to="/">Home</Link>
+				<a href="#/">Home</a>
 			</p>
 			<p
 				id="about-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
 			>
-				<Link to="/section-two">About</Link>
+				<a href="#section-two">About</a>
 			</p>
 			<p
 				id="experience-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
 			>
-				<Link to="/section-three">Experience</Link>
+				<a href="#section-three">Experience</a>
 			</p>
 			<p
 				id="project-link"
 				className={props.darkMode ? "nav-links" : "nav-links--light"}
 			>
-				<Link to="/section-four">Projects</Link>
+				<a href="#section-four">Projects</a>
 			</p>
 		</header>
 	);

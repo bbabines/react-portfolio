@@ -2,7 +2,7 @@
 
 .experience-page {
 	background-color: $primary-color;
-	height: 100vh;
+	height: 85vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
@@ -26,7 +26,7 @@
 	.experience-pt-1,
 	.experience-pt-2,
 	.experience-pt-3 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 }
 
@@ -62,7 +62,7 @@
 // Light mode
 .experience-page-light {
 	background-color: $tertiary-color;
-	height: 100vh;
+	height: 85vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
@@ -86,7 +86,7 @@
 	.experience-pt-1,
 	.experience-pt-2,
 	.experience-pt-3 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	.experience-right > img {

@@ -1,6 +1,6 @@
 const SectionOne = (props) => {
 	return (
-		<main className={props.darkMode ? "main" : "main--light"}>
+		<main id="/" className={props.darkMode ? "main" : "main--light"}>
 			<div className={props.darkMode ? "section-one" : "section-one--light"}>
 				<div className="section-one-small-intro">Hi, my name is</div>
 

@@ -1,6 +1,6 @@
 .experience-page {
   background-color: #0a192f;
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -21,7 +21,7 @@
 .experience-page .experience-pt-1,
 .experience-page .experience-pt-2,
 .experience-page .experience-pt-3 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .experience-right > img {
@@ -55,7 +55,7 @@
 
 .experience-page-light {
   background-color: white;
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -76,7 +76,7 @@
 .experience-page-light .experience-pt-1,
 .experience-page-light .experience-pt-2,
 .experience-page-light .experience-pt-3 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .experience-page-light .experience-right > img {
   max-height: 600px;

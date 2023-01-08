@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionFour = (props) => {
 	return (
-		<div>
+		<div id="section-four">
 			<div className={props.darkMode ? "projects-page" : "projects-page-light"}>
 				<div className="projects-title">Projects</div>
 				<div className="project-display">

@@ -1,11 +1,12 @@
 const SectionThree = (props) => {
 	return (
 		<div
+			id="section-three"
 			className={props.darkMode ? "experience-page" : "experience-page-light"}
 		>
 			<div className="experience-left">
 				<div className="experience-title">Experience</div>
-				<p className="experience-pt-1">
+				<div className="experience-pt-1">
 					My background is in healthcare, specifically in the critical care
 					setting. I am used to a fast-paced, high stress environment with a lot
 					of attention to detail. I provided nutrition and hydration for the
@@ -31,10 +32,11 @@ const SectionThree = (props) => {
 					<p className="experience-pt-3">
 						Within the last year I have since transitioned into the tech field.
 						I am currently getting a solid foundation as a tech lead with a
-						software company. I continue to work on my coding skills in my free
-						time.
+						software company and I am doing freelance web development in my
+						spare time. I continually strive to improve my coding skills
+						whenever I can.
 					</p>
-				</p>
+				</div>
 			</div>
 			<div className="experience-right">
 				<img src="./assets/healthcare.png" alt="Healthcare image" />
