@@ -10,6 +10,8 @@
 	align-items: center;
 	background-color: $primary-color;
 
+	position: sticky;
+	bottom: 0;
 	border-top: thin inset $fourth-color;
 
 	a:link {
@@ -79,6 +81,8 @@
 	align-items: center;
 	background-color: $tertiary-color;
 
+	position: sticky;
+	bottom: 0;
 	border-top: thin inset $tertiary-color;
 
 	a:link {

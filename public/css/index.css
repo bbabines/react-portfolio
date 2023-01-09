@@ -481,7 +481,7 @@ main > div {
 }
 
 .section-one-big-intro {
-  font-size: 2em;
+  font-size: 4em;
   color: white;
 }
 
@@ -529,7 +529,7 @@ main > div {
   color: #8892b0;
 }
 .section-one--light .section-one-big-intro {
-  font-size: 2em;
+  font-size: 4em;
   color: #0a192f;
 }
 .section-one--light .section-one-second-line {
@@ -633,7 +633,7 @@ main > div {
 }
 .about-page {
   background-color: #0a192f;
-  height: 110vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -648,7 +648,7 @@ main > div {
 .about-page p,
 .about-page div {
   color: #8892b0;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .about-page .about-summary,
 .about-page .about-story,
@@ -691,7 +691,7 @@ main > div {
 
 .light-about-page {
   background-color: white;
-  height: 110vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -706,7 +706,7 @@ main > div {
 .light-about-page p,
 .light-about-page div {
   color: #8892b0;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .light-about-page .about-summary,
 .light-about-page .about-story,
@@ -956,7 +956,7 @@ main > div {
 }
 .experience-page {
   background-color: #0a192f;
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -977,7 +977,7 @@ main > div {
 .experience-page .experience-pt-1,
 .experience-page .experience-pt-2,
 .experience-page .experience-pt-3 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .experience-right > img {
@@ -1011,7 +1011,7 @@ main > div {
 
 .experience-page-light {
   background-color: white;
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -1032,7 +1032,7 @@ main > div {
 .experience-page-light .experience-pt-1,
 .experience-page-light .experience-pt-2,
 .experience-page-light .experience-pt-3 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .experience-page-light .experience-right > img {
   max-height: 600px;
@@ -1221,7 +1221,8 @@ main > div {
 .project-four,
 .project-five,
 .project-six,
-.brads-clothing {
+.brads-clothing,
+.three-js-galaxy {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1425,6 +1426,12 @@ main > div {
     color: #0a192f;
   }
 }
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+  .projects-page-light p,
+  .projects-page-light div {
+    color: #0a192f;
+  }
+}
 .footer {
   width: 100%;
   height: 15vh;
@@ -1433,6 +1440,8 @@ main > div {
   justify-content: center;
   align-items: center;
   background-color: #0a192f;
+  position: sticky;
+  bottom: 0;
   border-top: thin inset #8892b0;
 }
 .footer a:link {
@@ -1496,6 +1505,8 @@ main > div {
   justify-content: center;
   align-items: center;
   background-color: white;
+  position: sticky;
+  bottom: 0;
   border-top: thin inset white;
 }
 .footer-light a:link {
@@ -1577,6 +1588,7 @@ main > div {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=index.css.map */

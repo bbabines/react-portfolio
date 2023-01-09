@@ -46,7 +46,8 @@
 .project-four,
 .project-five,
 .project-six,
-.brads-clothing {
+.brads-clothing,
+.three-js-galaxy {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -288,6 +289,16 @@
 			font-size: 3em;
 		}
 
+		p,
+		div {
+			color: $primary-color;
+		}
+	}
+}
+
+// Very large media query
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+	.projects-page-light {
 		p,
 		div {
 			color: $primary-color;

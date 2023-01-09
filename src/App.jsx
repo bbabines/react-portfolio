@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { Routes, Route, Router } from "react-router-dom";
 
 import NavBar from "./components/navbar/navbar.component";
 import SectionOne from "./components/section-one/section-one.component";
@@ -16,30 +16,19 @@ const App = () => {
 	};
 
 	return (
-		<BrowserRouter>
-			<>
-				<NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-				<Routes>
-					<Route path="/" element={<SectionOne darkMode={darkMode} />} />
+		<>
+			<NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
-					<Route
-						path="/section-two"
-						element={<SectionTwo darkMode={darkMode} />}
-					/>
+			<SectionOne darkMode={darkMode} />
 
-					<Route
-						path="/section-three"
-						element={<SectionThree darkMode={darkMode} />}
-					/>
+			<SectionTwo darkMode={darkMode} />
 
-					<Route
-						path="/section-four"
-						element={<SectionFour darkMode={darkMode} />}
-					/>
-				</Routes>
-				<Footer darkMode={darkMode} />
-			</>
-		</BrowserRouter>
+			<SectionThree darkMode={darkMode} />
+
+			<SectionFour darkMode={darkMode} />
+
+			<Footer darkMode={darkMode} />
+		</>
 	);
 };
 

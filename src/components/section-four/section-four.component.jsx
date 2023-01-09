@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionFour = (props) => {
 	return (
-		<div>
+		<div id="section-four">
 			<div className={props.darkMode ? "projects-page" : "projects-page-light"}>
 				<div className="projects-title">Projects</div>
 				<div className="project-display">
@@ -17,6 +17,21 @@ const SectionFour = (props) => {
 								className="brads-clothing-thumb"
 								src="./assets/brads-clothing-thumb.png"
 								alt="A e-commerce clothing store"
+							/>
+						</a>
+					</div>
+
+					<div className="three-js-galaxy">
+						Three.JS Galaxy
+						<a
+							href="https://galaxy-three.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="brads-clothing-thumb"
+								src="./assets/galaxy-thumb.png"
+								alt="A galaxy created in three.js"
 							/>
 						</a>
 					</div>
@@ -51,6 +66,21 @@ const SectionFour = (props) => {
 						</a>
 					</div>
 
+					<div className="project-five">
+						Sign-Up Form
+						<a
+							href="https://bbabines.github.io/sign-up-form/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="signup-thumb"
+								src="./assets/signup-thumb.png"
+								alt="Thumbnail of a sign-up form"
+							/>
+						</a>
+					</div>
+
 					<div className="project-three">
 						Etch-a-Sketch
 						<a
@@ -66,35 +96,6 @@ const SectionFour = (props) => {
 						</a>
 					</div>
 
-					<div className="project-four">
-						Paper-Rock-Scissors
-						<a
-							href="https://bbabines.github.io/paper-rock-scissors/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								className="prs-thumb"
-								src="./assets/prs-thumb.png"
-								alt="Paper, Rock, Scissors thumbnail"
-							/>
-						</a>
-					</div>
-
-					<div className="project-five">
-						Sign-Up Form
-						<a
-							href="https://bbabines.github.io/sign-up-form/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								className="signup-thumb"
-								src="./assets/signup-thumb.png"
-								alt="Thumbnail of a sign-up form"
-							/>
-						</a>
-					</div>
 					{/* 
 					<div className="project-six">
 						Landing Page
@@ -107,6 +108,21 @@ const SectionFour = (props) => {
 								className="landing-thumb"
 								src="./assets/landing-thumb.png"
 								alt="Landing page thumbnail"
+							/>
+						</a>
+					</div> */}
+
+					{/* <div className="project-four">
+						Paper-Rock-Scissors
+						<a
+							href="https://bbabines.github.io/paper-rock-scissors/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="prs-thumb"
+								src="./assets/prs-thumb.png"
+								alt="Paper, Rock, Scissors thumbnail"
 							/>
 						</a>
 					</div> */}

@@ -1,6 +1,9 @@
 const SectionTwo = (props) => {
 	return (
-		<div className={props.darkMode ? "about-page" : "light-about-page"}>
+		<div
+			id="section-two"
+			className={props.darkMode ? "about-page" : "light-about-page"}
+		>
 			<div className="left-box">
 				<h3 className="about-title">About</h3>
 				<div>
