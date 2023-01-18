@@ -8,6 +8,7 @@
   font-size: 3em;
   align-self: flex-start;
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
   color: #5ff1d0;
 }
 .experience-page h3 {
@@ -16,7 +17,7 @@
 .experience-page p,
 .experience-page div {
   color: #8892b0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .experience-page .experience-pt-1,
 .experience-page .experience-pt-2,
@@ -63,6 +64,7 @@
   font-size: 3em;
   align-self: flex-start;
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
   color: #0a192f;
 }
 .experience-page-light h3 {
@@ -71,7 +73,7 @@
 .experience-page-light p,
 .experience-page-light div {
   color: #8892b0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .experience-page-light .experience-pt-1,
 .experience-page-light .experience-pt-2,
@@ -197,10 +199,10 @@
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
   .experience-page {
     height: 85vh;
+    font-size: 1.4em;
   }
   .experience-page .experience-pt-1 {
     margin-top: 2em;
-    font-size: 1.1em;
   }
   .experience-page .experience-title {
     margin-bottom: -0.5em;
@@ -211,10 +213,10 @@
   }
   .experience-page-light {
     height: 85vh;
+    font-size: 1.4em;
   }
   .experience-page-light .experience-pt-1 {
     margin-top: 2em;
-    font-size: 1.1em;
   }
   .experience-page-light .experience-title {
     margin-bottom: -0.5em;
@@ -222,6 +224,16 @@
   .experience-page-light .experience-right > img {
     max-width: 80%;
     height: 50%;
+  }
+}
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+  .experience-page {
+    height: 85vh;
+    font-size: 1.5em;
+  }
+  .experience-page-light {
+    height: 85vh;
+    font-size: 1.5em;
   }
 }
 
