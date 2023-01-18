@@ -25,7 +25,7 @@ const SectionTwo = (props) => {
 					</p>
 					<p className="about-summary">
 						I continue to refine my coding skills while building my passion
-						project. I'v recently discovered that 3D content, animations, and
+						project. I've recently discovered that 3D content, animations, and
 						micro-interactions are a source of joy.
 					</p>
 					<p className="technologies">
