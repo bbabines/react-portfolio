@@ -350,7 +350,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
 	.about-page {
 		height: 85vh;
-		font-size: 1.1em;
+		font-size: 1.4em;
 
 		.about-pic {
 			max-height: 60%;
@@ -382,7 +382,7 @@
 	// Light mode large media query
 	.light-about-page {
 		height: 85vh;
-		font-size: 1.1em;
+		font-size: 1.4em;
 
 		.about-pic {
 			max-height: 60%;
@@ -409,5 +409,19 @@
 		.section-two-personal {
 			display: none;
 		}
+	}
+}
+
+// Very large media query
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+	.about-page {
+		height: 85vh;
+		font-size: 1.4em;
+	}
+
+	// Light mode
+	.light-about-page {
+		height: 85vh;
+		font-size: 1.4em;
 	}
 }
