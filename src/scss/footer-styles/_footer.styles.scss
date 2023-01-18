@@ -184,6 +184,11 @@
 	}
 }
 
+// Small media query
+@media only screen and (min-width: 451) and (max-width: 767px) {
+	// Light mode small media query
+}
+
 // Medium media query
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 	.footer {

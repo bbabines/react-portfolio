@@ -1095,7 +1095,7 @@ main > div {
   }
   .experience-page .experience-title {
     margin-bottom: 0.5em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
   .experience-right > img {
     display: none;
@@ -1110,7 +1110,7 @@ main > div {
   }
   .experience-page-light .experience-title {
     margin-bottom: 0.5em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
   .experience-page-light .experience-right > img {
     display: none;
@@ -1336,7 +1336,7 @@ main > div {
 @media only screen and (max-width: 450px) {
   .projects-page {
     display: grid;
-    height: 190vh;
+    height: 150vh;
   }
   .projects-page .project-display {
     display: grid;
@@ -1350,11 +1350,14 @@ main > div {
   .projects-page .projects-title {
     size: 0px;
     margin: 0px;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
     padding: 0px;
   }
   .projects-page-light {
     display: grid;
-    height: 190vh;
+    height: 150vh;
   }
   .projects-page-light .project-display {
     display: grid;
@@ -1372,6 +1375,9 @@ main > div {
   .projects-page-light .projects-title {
     size: 0px;
     margin: 0px;
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
     padding: 0px;
   }
 }
