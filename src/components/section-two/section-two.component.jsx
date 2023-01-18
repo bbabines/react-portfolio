@@ -16,12 +16,15 @@ const SectionTwo = (props) => {
 						our ideas needed to be tested but there was no funding for the
 						project. So I decided to learn to code. To my surprise, I loved it!
 					</p>
+					<br />
 					<p className="about-story">
 						I began using The Odin Project, Free Code Camp, and Codecademy as
 						resources for this new chapter in my life. I decided to leave my
 						formal education and career in healthcare behind. Fast-forward to
 						today and I am working at a software company getting a foundation of
 						technical knowledge under my belt.
+						<br />
+						<br />
 					</p>
 					<p className="about-summary">
 						I continue to refine my coding skills while building my passion

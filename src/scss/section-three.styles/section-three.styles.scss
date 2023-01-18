@@ -245,10 +245,10 @@
 @media only screen and (min-width: 1200px) and (max-width: 2400px) {
 	.experience-page {
 		height: 85vh;
+		font-size: 1.4em;
 
 		.experience-pt-1 {
 			margin-top: 2em;
-			font-size: 1.1em;
 		}
 
 		.experience-title {
@@ -264,10 +264,10 @@
 	// Light mode large media query
 	.experience-page-light {
 		height: 85vh;
+		font-size: 1.4em;
 
 		.experience-pt-1 {
 			margin-top: 2em;
-			font-size: 1.1em;
 		}
 
 		.experience-title {
@@ -278,5 +278,18 @@
 			max-width: 80%;
 			height: 50%;
 		}
+	}
+}
+
+@media only screen and (min-width: 2401px) and (max-width: 4500px) {
+	.experience-page {
+		height: 85vh;
+		font-size: 1.5em;
+	}
+
+	// Light mode
+	.experience-page-light {
+		height: 85vh;
+		font-size: 1.5em;
 	}
 }
