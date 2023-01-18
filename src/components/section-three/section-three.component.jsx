@@ -12,6 +12,7 @@ const SectionThree = (props) => {
 					of attention to detail. I provided nutrition and hydration for the
 					sickest patients in the Columbus, Ohio area.
 					<br />
+					<br />
 					<p className="experience-pt-2">
 						During my career I reached the top of my field and helped expand the
 						social norms of what Registered Dietitians (RDs) are able to do.
