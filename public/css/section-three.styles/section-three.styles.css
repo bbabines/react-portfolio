@@ -1,6 +1,6 @@
 .experience-page {
   background-color: #0a192f;
-  height: 85vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -8,6 +8,7 @@
   font-size: 3em;
   align-self: flex-start;
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
   color: #5ff1d0;
 }
 .experience-page h3 {
@@ -16,12 +17,12 @@
 .experience-page p,
 .experience-page div {
   color: #8892b0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .experience-page .experience-pt-1,
 .experience-page .experience-pt-2,
 .experience-page .experience-pt-3 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .experience-right > img {
@@ -55,7 +56,7 @@
 
 .experience-page-light {
   background-color: white;
-  height: 85vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -63,6 +64,7 @@
   font-size: 3em;
   align-self: flex-start;
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
   color: #0a192f;
 }
 .experience-page-light h3 {
@@ -71,12 +73,12 @@
 .experience-page-light p,
 .experience-page-light div {
   color: #8892b0;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .experience-page-light .experience-pt-1,
 .experience-page-light .experience-pt-2,
 .experience-page-light .experience-pt-3 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .experience-page-light .experience-right > img {
   max-height: 600px;
