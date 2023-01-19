@@ -553,7 +553,7 @@ main > div {
 
 @media only screen and (max-width: 450px) {
   .section-one {
-    height: 85vh;
+    height: 75vh;
     margin-right: 1em;
   }
   .section-one .section-one-second-line {
@@ -576,7 +576,7 @@ main > div {
     color: #5ff1d0;
   }
   .section-one--light {
-    height: 85vh;
+    height: 75vh;
     margin-right: 1em;
   }
   .section-one--light .section-one-second-line {
@@ -776,9 +776,6 @@ main > div {
   .about-page .section-two-personal {
     display: none;
   }
-  .about-story-one {
-    display: none;
-  }
   .about-story {
     display: none;
   }
@@ -802,9 +799,6 @@ main > div {
     display: none;
   }
   .light-about-page .section-two-personal {
-    display: none;
-  }
-  .light-about-page .about-story-one {
     display: none;
   }
   .light-about-page .about-story {
@@ -1347,9 +1341,8 @@ main > div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 2%;
+    row-gap: 2%;
     flex-direction: row;
-    margin-top: 0px;
-    padding: 0px;
   }
   .projects-page .projects-title {
     size: 0px;
@@ -1368,9 +1361,8 @@ main > div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 2%;
+    row-gap: 2%;
     flex-direction: row;
-    margin-top: 0px;
-    padding: 0px;
   }
   .projects-page-light p,
   .projects-page-light div {
