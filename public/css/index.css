@@ -554,37 +554,47 @@ main > div {
 @media only screen and (max-width: 450px) {
   .section-one {
     height: 85vh;
+    margin-right: 1em;
   }
-  .section-one-second-line {
+  .section-one .section-one-second-line {
     margin-top: 2em;
     font-size: 2em;
   }
-  .section-one-paragraph {
+  .section-one .section-one-paragraph {
     margin-top: 0.5em;
   }
-  .resume {
+  .section-one .resume {
     margin-top: 1em;
   }
-  .section-one-small-intro {
+  .section-one .section-one-small-intro {
     display: none;
   }
-  .section-one-big-intro {
+  .section-one .section-one-big-intro {
     display: none;
   }
-  .section-one-second-line {
+  .section-one .section-one-second-line {
     color: #5ff1d0;
   }
   .section-one--light {
     height: 85vh;
+    margin-right: 1em;
   }
   .section-one--light .section-one-second-line {
     color: #0a192f;
-    margin-top: 1em;
     margin-top: 2em;
     font-size: 2em;
   }
   .section-one--light .section-one-paragraph {
     margin-top: 0.5em;
+  }
+  .section-one--light .resume {
+    margin-top: 1em;
+  }
+  .section-one--light .section-one-small-intro {
+    display: none;
+  }
+  .section-one--light .section-one-big-intro {
+    display: none;
   }
 }
 @media only screen and (min-width: 451) and (max-width: 767px) {
@@ -809,12 +819,6 @@ main > div {
   .light-about-page p,
   .light-about-page div {
     color: #8892b0;
-    font-size: 1.1em;
-  }
-  .light-about-page .about-summary,
-  .light-about-page .about-story,
-  .light-about-page .about-story-one {
-    font-size: 1em;
   }
   .light-about-page .section-two-name,
   .light-about-page .section-two-skills {
@@ -1589,7 +1593,7 @@ main > div {
 
 @media only screen and (max-width: 450px) {
   .footer {
-    height: 21vh;
+    height: 16vh;
   }
   .footer-title {
     display: none;
@@ -1603,7 +1607,7 @@ main > div {
     margin-bottom: 0.5em;
   }
   .footer {
-    height: 21vh;
+    height: 16vh;
   }
   .footer-light .footer-title {
     display: none;

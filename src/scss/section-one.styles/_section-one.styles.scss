@@ -114,46 +114,58 @@ main > div {
 @media only screen and (max-width: 450px) {
 	.section-one {
 		height: 85vh;
-	}
-
-	.section-one-second-line {
-		margin-top: 2em;
-		font-size: 2em;
-	}
-
-	.section-one-paragraph {
-		margin-top: 0.5em;
-	}
-
-	.resume {
-		margin-top: 1em;
-	}
-
-	.section-one-small-intro {
-		display: none;
-	}
-
-	.section-one-big-intro {
-		display: none;
-	}
-
-	.section-one-second-line {
-		color: $secondary-color;
-	}
-
-	// Light mode very small media query
-	.section-one--light {
-		height: 85vh;
+		margin-right: 1em;
 
 		.section-one-second-line {
-			color: $primary-color;
-			margin-top: 1em;
 			margin-top: 2em;
 			font-size: 2em;
 		}
 
 		.section-one-paragraph {
 			margin-top: 0.5em;
+		}
+
+		.resume {
+			margin-top: 1em;
+		}
+
+		.section-one-small-intro {
+			display: none;
+		}
+
+		.section-one-big-intro {
+			display: none;
+		}
+
+		.section-one-second-line {
+			color: $secondary-color;
+		}
+	}
+
+	// Light mode very small media query
+	.section-one--light {
+		height: 85vh;
+		margin-right: 1em;
+
+		.section-one-second-line {
+			color: $primary-color;
+			margin-top: 2em;
+			font-size: 2em;
+		}
+
+		.section-one-paragraph {
+			margin-top: 0.5em;
+		}
+		.resume {
+			margin-top: 1em;
+		}
+
+		.section-one-small-intro {
+			display: none;
+		}
+
+		.section-one-big-intro {
+			display: none;
 		}
 	}
 }
