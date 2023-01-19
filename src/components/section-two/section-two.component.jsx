@@ -9,6 +9,8 @@ const SectionTwo = (props) => {
 				<div>
 					Hello! My name is <span className="section-two-name">Brad</span> and I
 					enjoy building websites, applications, and immersive experiences.
+					<br />
+					<br />
 					<p className="about-story-one">
 						While I’ve always loved computers, my passion for coding is
 						relatively new. I stumbled upon this new venture when a friend and I
