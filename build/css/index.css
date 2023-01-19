@@ -1341,9 +1341,8 @@ main > div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 2%;
+    row-gap: 2%;
     flex-direction: row;
-    margin-top: 0px;
-    padding: 0px;
   }
   .projects-page .projects-title {
     size: 0px;
@@ -1362,9 +1361,8 @@ main > div {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 2%;
+    row-gap: 2%;
     flex-direction: row;
-    margin-top: 0px;
-    padding: 0px;
   }
   .projects-page-light p,
   .projects-page-light div {
