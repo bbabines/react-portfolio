@@ -553,7 +553,7 @@ main > div {
 
 @media only screen and (max-width: 450px) {
   .section-one {
-    height: 72vh;
+    height: 75vh;
     margin-right: 1em;
   }
   .section-one .section-one-second-line {
@@ -576,7 +576,7 @@ main > div {
     color: #5ff1d0;
   }
   .section-one--light {
-    height: 72vh;
+    height: 75vh;
     margin-right: 1em;
   }
   .section-one--light .section-one-second-line {
