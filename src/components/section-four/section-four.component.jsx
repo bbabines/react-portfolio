@@ -82,16 +82,16 @@ const SectionFour = (props) => {
 					</div>
 
 					<div className="project-three">
-						Etch-a-Sketch
+						React Typing Game
 						<a
-							href="https://bbabines.github.io/etch-a-sketch/"
+							href="https://react-typing-game-with-vite.netlify.app/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img
-								className="etch-thumb"
-								src="./assets/etch-thumb.png"
-								alt="Etch-a-Sketch thumbnail"
+								className="react-typing-game-thumb"
+								src="./assets/react-typing-game-img.png"
+								alt="Typing Game Thumbnail"
 							/>
 						</a>
 					</div>
