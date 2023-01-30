@@ -1243,7 +1243,7 @@ main > div {
 .projects-page img {
   height: 100%;
   width: 75%;
-  max-height: 400px;
+  max-height: 200px;
   max-width: 500px;
 }
 
@@ -1263,10 +1263,10 @@ main > div {
 
 .calc-thumb:hover,
 .dashboard-thumb:hover,
-.etch-thumb:hover,
-.prs-thumb:hover,
 .signup-thumb:hover,
-.landing-thumb:hover {
+.landing-thumb:hover,
+.react-typing-game-thumb:hover,
+.brads-clothing-thumb:hover {
   border: 1px solid #5ff1d0;
   box-shadow: 0 0 25px #5ff1d0;
   transition-property: box-shadow;
@@ -1304,7 +1304,7 @@ main > div {
 .projects-page-light img {
   height: 100%;
   width: 75%;
-  max-height: 400px;
+  max-height: 200px;
   max-width: 500px;
 }
 
@@ -1321,12 +1321,12 @@ main > div {
 
 .calc-thumb:hover,
 .dashboard-thumb:hover,
-.etch-thumb:hover,
-.prs-thumb:hover,
 .signup-thumb:hover,
-.landing-thumb:hover {
+.landing-thumb:hover,
+.react-typing-game-thumb:hover,
+.brads-clothing-thumb:hover {
   border: 1px solid #0a192f;
-  box-shadow: 0 0 25px #0a192f;
+  box-shadow: 0 0 25px #5ff1d0;
   transition-property: box-shadow;
   transition: box-shadow ease-out 0.2s;
 }
