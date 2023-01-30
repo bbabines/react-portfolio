@@ -35,7 +35,7 @@
 	img {
 		height: 100%;
 		width: 75%;
-		max-height: 400px;
+		max-height: 200px;
 		max-width: 500px;
 	}
 }
@@ -56,10 +56,10 @@
 
 .calc-thumb:hover,
 .dashboard-thumb:hover,
-.etch-thumb:hover,
-.prs-thumb:hover,
 .signup-thumb:hover,
-.landing-thumb:hover {
+.landing-thumb:hover,
+.react-typing-game-thumb:hover,
+.brads-clothing-thumb:hover {
 	border: 1px solid $secondary-color;
 	box-shadow: 0 0 25px $secondary-color;
 	transition-property: box-shadow;
@@ -102,7 +102,7 @@
 	img {
 		height: 100%;
 		width: 75%;
-		max-height: 400px;
+		max-height: 200px;
 		max-width: 500px;
 	}
 }
@@ -120,12 +120,12 @@
 
 .calc-thumb:hover,
 .dashboard-thumb:hover,
-.etch-thumb:hover,
-.prs-thumb:hover,
 .signup-thumb:hover,
-.landing-thumb:hover {
+.landing-thumb:hover,
+.react-typing-game-thumb:hover,
+.brads-clothing-thumb:hover {
 	border: 1px solid $primary-color;
-	box-shadow: 0 0 25px $primary-color;
+	box-shadow: 0 0 25px $secondary-color;
 	transition-property: box-shadow;
 	transition: box-shadow ease-out 0.2s;
 }
