@@ -21,8 +21,38 @@ const SectionFour = (props) => {
 						</a>
 					</div>
 
+					<div className="project-five">
+						Advanced Notepad
+						<a
+							href="https://complex-react-notepad.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="react-notepad-thumb"
+								src="./assets/react-notepad-thumb.png"
+								alt="Thumbnail of an advanced notepad"
+							/>
+						</a>
+					</div>
+
+					<div className="project-three">
+						Speed Typing Game
+						<a
+							href="https://react-typing-game-with-vite.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="react-typing-game-thumb"
+								src="./assets/react-typing-game-img.png"
+								alt="Typing Game Thumbnail"
+							/>
+						</a>
+					</div>
+
 					<div className="three-js-galaxy">
-						Three.JS Galaxy
+						Immersive & Interactive Galaxy
 						<a
 							href="https://galaxy-three.netlify.app/"
 							target="_blank"
@@ -37,7 +67,7 @@ const SectionFour = (props) => {
 					</div>
 
 					<div className="project-one">
-						Calculator
+						A Calculator
 						<a
 							href="https://bbabines.github.io/calculator/"
 							target="_blank"
@@ -52,7 +82,7 @@ const SectionFour = (props) => {
 					</div>
 
 					<div className="project-two">
-						Dashboard
+						A Dashboard
 						<a
 							href="https://bbabines.github.io/dashboard/"
 							target="_blank"
@@ -66,7 +96,7 @@ const SectionFour = (props) => {
 						</a>
 					</div>
 
-					<div className="project-five">
+					{/* <div className="project-five">
 						Sign-Up Form
 						<a
 							href="https://bbabines.github.io/sign-up-form/"
@@ -79,22 +109,7 @@ const SectionFour = (props) => {
 								alt="Thumbnail of a sign-up form"
 							/>
 						</a>
-					</div>
-
-					<div className="project-three">
-						React Typing Game
-						<a
-							href="https://react-typing-game-with-vite.netlify.app/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								className="react-typing-game-thumb"
-								src="./assets/react-typing-game-img.png"
-								alt="Typing Game Thumbnail"
-							/>
-						</a>
-					</div>
+					</div> */}
 
 					{/* 
 					<div className="project-six">
